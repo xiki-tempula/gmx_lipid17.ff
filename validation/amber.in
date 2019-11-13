@@ -1,0 +1,20 @@
+Relax restrained - 1 ns
+ &cntrl
+  imin     = 0,    ! No minimization.
+  ig       = -1,   ! pseudo-random number generator
+  ntx      = 1,    ! Coordinates and velocities will be read
+  irest    = 0,    ! Restart the simulation
+  ntpr     = 10, ! Frequency of printing of the energy and its components.
+  ntwx     = 10, ! Every ntwx steps, the coordinates will be written to the mdcrd file.
+  ntwr     = 10,! Every ntwr steps during dynamics, the “restrt” file will be written.
+  ntf      = 1,
+  ntc      = 1,    ! bonds involving hydrogen are constrained
+  ntb      = 0,    ! constant pressure
+  cut      = 20.0, ! Non-bond cut off
+  nstlim   = 0,! Perform MD for 500,000 steps = 1 ns
+  dt       = 0.001, ! timestep
+  tempi    = 0.0, ! Initial temperature.
+  temp0    = 0.0, ! Reference temperature at which the system is to be kept,
+  ntt      = 0,     ! Langevin dynamics
+ &end
+ /
