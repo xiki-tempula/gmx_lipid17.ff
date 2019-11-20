@@ -1,11 +1,11 @@
 gmx_lipid17.ff:
-a gromacs port of the amber lipid force field LIPID17
+A gromacs port of the amber lipid force field LIPID17
 ==============================================================
 
-This is an gromacs port of the amber LIPID17 force field. The amber to gromacs
+This is a gromacs port of the amber LIPID17 force field. The amber to gromacs
 format conversion is first done with ParmEd (https://github.com/ParmEd/ParmEd).
-I have written a script to condense all the bonded interaction into a force field
-format, provide the corresponding gro file for every lipids, and validate the
+I have written a script to condense all the bonded interactions into force field
+format, provide the corresponding gro file for every lipids and validate the
 energy to make sure the gromacs port yield the same energy as the original amber
 format.
 
@@ -17,7 +17,7 @@ the lipid membrane made in charmm-GUI membrane builder.
 
 It is worth noting that not all charmm lipids are supported in amber lipid17
 force field. Since lipid17 is a modular force field, each lipid is constructed
-as two acryl chain and a head group. The available acryl chain and head groups are:
+as two acryl chains and a head group. The available acryl chain and head groups are:
 
 |            | Description              | Residue Name |
 |------------|--------------------------|--------------|
@@ -35,8 +35,8 @@ as two acryl chain and a head group. The available acryl chain and head groups a
 |            | Phosphaditic acid        | PH-          |
 | Other      | Cholesterol              | CHL          |
 
-To use `charmmlipid2amber.py` `MDAnalysis` (https://www.mdanalysis.org/) and python3
-is required. `MDAnalysis` can be installed via simple pip installation.
+To use `charmmlipid2amber.py`, [`MDAnalysis`](https://www.mdanalysis.org/) and python3
+are required. `MDAnalysis` can be installed via simple pip installation.
 
 ```bash
 pip install --upgrade MDAnalysis
@@ -50,7 +50,7 @@ python charmmlipid2amber.py -f charmm2gmx.pdb -o amber_lipid.gro -lipids POPC
 ```
 
 Which will convert the lipid `POPC` in the file `charmm2gmx.pdb` to
-the file `amber_lipid.pdb`. If the lipids is left as blank, the script will
+the file `amber_lipid.gro`. If the field `lipids` is left as blank, the script will
 attempt to convert all lipids in charmm-GUI membrane builder to the corresponding
 amber lipid.
 
@@ -82,11 +82,11 @@ as DMPC, the name of the lipid is MY_PC_MY.
 ## Use amber lipids directly
 
 Alternatively, the amber lipids can be used directly. The gro file for each
-lipid can be found in the `gro` folder. for lipid POPC, the gro file has a name
+lipid can be found in the [`gro`](https://github.com/xiki-tempula/gmx_lipid17.ff/tree/master/gro) folder. for lipid POPC, the gro file has a name
 of `PA_PC_OL.gro`. Or one can generate the lipid bilayer in amber and use it in
 gromacs.
 
 # Generation and validation
 The files and script for generation and validation can be found in the folder
-`generation_validation`, where as the validation of `charmmlipid2amber.py`
-can be found in the folder `g_charmm4lipid17`.
+[`generation_validation`](https://github.com/xiki-tempula/gmx_lipid17.ff/tree/master/generation_validation), where as the validation of `charmmlipid2amber.py`
+can be found in the folder [`g_charmm4lipid17`](https://github.com/xiki-tempula/gmx_lipid17.ff/tree/master/g_charmm4lipid17).
