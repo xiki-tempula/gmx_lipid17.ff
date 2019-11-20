@@ -3,7 +3,7 @@ A gromacs port of the amber lipid force field LIPID17
 ==============================================================
 
 This is a gromacs port of the amber LIPID17 force field. The amber to gromacs
-format conversion is first done with ParmEd (https://github.com/ParmEd/ParmEd).
+format conversion is first done with ParmEd 2.6 (https://github.com/ParmEd/ParmEd).
 I have written a script to condense all the bonded interactions into force field
 format, provide the corresponding gro file for every lipids and validate the
 energy to make sure the gromacs port yield the same energy as the original amber
