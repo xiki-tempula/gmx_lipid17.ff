@@ -1,0 +1,986 @@
+source leaprc.protein.ff14SB
+source leaprc.lipid17
+lipid = sequence {LAL PC LAL}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PC_LAL.pdb
+saveamberparm lipid LAL_PC_LAL.prmtop LAL_PC_LAL.inpcrd
+lipid = sequence {LAL PC MY}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PC_MY.pdb
+saveamberparm lipid LAL_PC_MY.prmtop LAL_PC_MY.inpcrd
+lipid = sequence {LAL PC PA}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PC_PA.pdb
+saveamberparm lipid LAL_PC_PA.prmtop LAL_PC_PA.inpcrd
+lipid = sequence {LAL PC OL}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PC_OL.pdb
+saveamberparm lipid LAL_PC_OL.prmtop LAL_PC_OL.inpcrd
+lipid = sequence {LAL PC ST}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PC_ST.pdb
+saveamberparm lipid LAL_PC_ST.prmtop LAL_PC_ST.inpcrd
+lipid = sequence {LAL PC AR}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PC_AR.pdb
+saveamberparm lipid LAL_PC_AR.prmtop LAL_PC_AR.inpcrd
+lipid = sequence {LAL PC DHA}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PC_DHA.pdb
+saveamberparm lipid LAL_PC_DHA.prmtop LAL_PC_DHA.inpcrd
+lipid = sequence {LAL PE LAL}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PE_LAL.pdb
+saveamberparm lipid LAL_PE_LAL.prmtop LAL_PE_LAL.inpcrd
+lipid = sequence {LAL PE MY}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PE_MY.pdb
+saveamberparm lipid LAL_PE_MY.prmtop LAL_PE_MY.inpcrd
+lipid = sequence {LAL PE PA}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PE_PA.pdb
+saveamberparm lipid LAL_PE_PA.prmtop LAL_PE_PA.inpcrd
+lipid = sequence {LAL PE OL}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PE_OL.pdb
+saveamberparm lipid LAL_PE_OL.prmtop LAL_PE_OL.inpcrd
+lipid = sequence {LAL PE ST}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PE_ST.pdb
+saveamberparm lipid LAL_PE_ST.prmtop LAL_PE_ST.inpcrd
+lipid = sequence {LAL PE AR}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PE_AR.pdb
+saveamberparm lipid LAL_PE_AR.prmtop LAL_PE_AR.inpcrd
+lipid = sequence {LAL PE DHA}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PE_DHA.pdb
+saveamberparm lipid LAL_PE_DHA.prmtop LAL_PE_DHA.inpcrd
+lipid = sequence {LAL PS LAL}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PS_LAL.pdb
+saveamberparm lipid LAL_PS_LAL.prmtop LAL_PS_LAL.inpcrd
+lipid = sequence {LAL PS MY}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PS_MY.pdb
+saveamberparm lipid LAL_PS_MY.prmtop LAL_PS_MY.inpcrd
+lipid = sequence {LAL PS PA}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PS_PA.pdb
+saveamberparm lipid LAL_PS_PA.prmtop LAL_PS_PA.inpcrd
+lipid = sequence {LAL PS OL}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PS_OL.pdb
+saveamberparm lipid LAL_PS_OL.prmtop LAL_PS_OL.inpcrd
+lipid = sequence {LAL PS ST}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PS_ST.pdb
+saveamberparm lipid LAL_PS_ST.prmtop LAL_PS_ST.inpcrd
+lipid = sequence {LAL PS AR}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PS_AR.pdb
+saveamberparm lipid LAL_PS_AR.prmtop LAL_PS_AR.inpcrd
+lipid = sequence {LAL PS DHA}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PS_DHA.pdb
+saveamberparm lipid LAL_PS_DHA.prmtop LAL_PS_DHA.inpcrd
+lipid = sequence {LAL PGR LAL}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PGR_LAL.pdb
+saveamberparm lipid LAL_PGR_LAL.prmtop LAL_PGR_LAL.inpcrd
+lipid = sequence {LAL PGR MY}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PGR_MY.pdb
+saveamberparm lipid LAL_PGR_MY.prmtop LAL_PGR_MY.inpcrd
+lipid = sequence {LAL PGR PA}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PGR_PA.pdb
+saveamberparm lipid LAL_PGR_PA.prmtop LAL_PGR_PA.inpcrd
+lipid = sequence {LAL PGR OL}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PGR_OL.pdb
+saveamberparm lipid LAL_PGR_OL.prmtop LAL_PGR_OL.inpcrd
+lipid = sequence {LAL PGR ST}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PGR_ST.pdb
+saveamberparm lipid LAL_PGR_ST.prmtop LAL_PGR_ST.inpcrd
+lipid = sequence {LAL PGR AR}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PGR_AR.pdb
+saveamberparm lipid LAL_PGR_AR.prmtop LAL_PGR_AR.inpcrd
+lipid = sequence {LAL PGR DHA}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PGR_DHA.pdb
+saveamberparm lipid LAL_PGR_DHA.prmtop LAL_PGR_DHA.inpcrd
+lipid = sequence {LAL PH- LAL}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PH-_LAL.pdb
+saveamberparm lipid LAL_PH-_LAL.prmtop LAL_PH-_LAL.inpcrd
+lipid = sequence {LAL PH- MY}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PH-_MY.pdb
+saveamberparm lipid LAL_PH-_MY.prmtop LAL_PH-_MY.inpcrd
+lipid = sequence {LAL PH- PA}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PH-_PA.pdb
+saveamberparm lipid LAL_PH-_PA.prmtop LAL_PH-_PA.inpcrd
+lipid = sequence {LAL PH- OL}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PH-_OL.pdb
+saveamberparm lipid LAL_PH-_OL.prmtop LAL_PH-_OL.inpcrd
+lipid = sequence {LAL PH- ST}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PH-_ST.pdb
+saveamberparm lipid LAL_PH-_ST.prmtop LAL_PH-_ST.inpcrd
+lipid = sequence {LAL PH- AR}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PH-_AR.pdb
+saveamberparm lipid LAL_PH-_AR.prmtop LAL_PH-_AR.inpcrd
+lipid = sequence {LAL PH- DHA}
+setBox lipid "vdw" 20
+savepdb lipid LAL_PH-_DHA.pdb
+saveamberparm lipid LAL_PH-_DHA.prmtop LAL_PH-_DHA.inpcrd
+lipid = sequence {MY PC LAL}
+setBox lipid "vdw" 20
+savepdb lipid MY_PC_LAL.pdb
+saveamberparm lipid MY_PC_LAL.prmtop MY_PC_LAL.inpcrd
+lipid = sequence {MY PC MY}
+setBox lipid "vdw" 20
+savepdb lipid MY_PC_MY.pdb
+saveamberparm lipid MY_PC_MY.prmtop MY_PC_MY.inpcrd
+lipid = sequence {MY PC PA}
+setBox lipid "vdw" 20
+savepdb lipid MY_PC_PA.pdb
+saveamberparm lipid MY_PC_PA.prmtop MY_PC_PA.inpcrd
+lipid = sequence {MY PC OL}
+setBox lipid "vdw" 20
+savepdb lipid MY_PC_OL.pdb
+saveamberparm lipid MY_PC_OL.prmtop MY_PC_OL.inpcrd
+lipid = sequence {MY PC ST}
+setBox lipid "vdw" 20
+savepdb lipid MY_PC_ST.pdb
+saveamberparm lipid MY_PC_ST.prmtop MY_PC_ST.inpcrd
+lipid = sequence {MY PC AR}
+setBox lipid "vdw" 20
+savepdb lipid MY_PC_AR.pdb
+saveamberparm lipid MY_PC_AR.prmtop MY_PC_AR.inpcrd
+lipid = sequence {MY PC DHA}
+setBox lipid "vdw" 20
+savepdb lipid MY_PC_DHA.pdb
+saveamberparm lipid MY_PC_DHA.prmtop MY_PC_DHA.inpcrd
+lipid = sequence {MY PE LAL}
+setBox lipid "vdw" 20
+savepdb lipid MY_PE_LAL.pdb
+saveamberparm lipid MY_PE_LAL.prmtop MY_PE_LAL.inpcrd
+lipid = sequence {MY PE MY}
+setBox lipid "vdw" 20
+savepdb lipid MY_PE_MY.pdb
+saveamberparm lipid MY_PE_MY.prmtop MY_PE_MY.inpcrd
+lipid = sequence {MY PE PA}
+setBox lipid "vdw" 20
+savepdb lipid MY_PE_PA.pdb
+saveamberparm lipid MY_PE_PA.prmtop MY_PE_PA.inpcrd
+lipid = sequence {MY PE OL}
+setBox lipid "vdw" 20
+savepdb lipid MY_PE_OL.pdb
+saveamberparm lipid MY_PE_OL.prmtop MY_PE_OL.inpcrd
+lipid = sequence {MY PE ST}
+setBox lipid "vdw" 20
+savepdb lipid MY_PE_ST.pdb
+saveamberparm lipid MY_PE_ST.prmtop MY_PE_ST.inpcrd
+lipid = sequence {MY PE AR}
+setBox lipid "vdw" 20
+savepdb lipid MY_PE_AR.pdb
+saveamberparm lipid MY_PE_AR.prmtop MY_PE_AR.inpcrd
+lipid = sequence {MY PE DHA}
+setBox lipid "vdw" 20
+savepdb lipid MY_PE_DHA.pdb
+saveamberparm lipid MY_PE_DHA.prmtop MY_PE_DHA.inpcrd
+lipid = sequence {MY PS LAL}
+setBox lipid "vdw" 20
+savepdb lipid MY_PS_LAL.pdb
+saveamberparm lipid MY_PS_LAL.prmtop MY_PS_LAL.inpcrd
+lipid = sequence {MY PS MY}
+setBox lipid "vdw" 20
+savepdb lipid MY_PS_MY.pdb
+saveamberparm lipid MY_PS_MY.prmtop MY_PS_MY.inpcrd
+lipid = sequence {MY PS PA}
+setBox lipid "vdw" 20
+savepdb lipid MY_PS_PA.pdb
+saveamberparm lipid MY_PS_PA.prmtop MY_PS_PA.inpcrd
+lipid = sequence {MY PS OL}
+setBox lipid "vdw" 20
+savepdb lipid MY_PS_OL.pdb
+saveamberparm lipid MY_PS_OL.prmtop MY_PS_OL.inpcrd
+lipid = sequence {MY PS ST}
+setBox lipid "vdw" 20
+savepdb lipid MY_PS_ST.pdb
+saveamberparm lipid MY_PS_ST.prmtop MY_PS_ST.inpcrd
+lipid = sequence {MY PS AR}
+setBox lipid "vdw" 20
+savepdb lipid MY_PS_AR.pdb
+saveamberparm lipid MY_PS_AR.prmtop MY_PS_AR.inpcrd
+lipid = sequence {MY PS DHA}
+setBox lipid "vdw" 20
+savepdb lipid MY_PS_DHA.pdb
+saveamberparm lipid MY_PS_DHA.prmtop MY_PS_DHA.inpcrd
+lipid = sequence {MY PGR LAL}
+setBox lipid "vdw" 20
+savepdb lipid MY_PGR_LAL.pdb
+saveamberparm lipid MY_PGR_LAL.prmtop MY_PGR_LAL.inpcrd
+lipid = sequence {MY PGR MY}
+setBox lipid "vdw" 20
+savepdb lipid MY_PGR_MY.pdb
+saveamberparm lipid MY_PGR_MY.prmtop MY_PGR_MY.inpcrd
+lipid = sequence {MY PGR PA}
+setBox lipid "vdw" 20
+savepdb lipid MY_PGR_PA.pdb
+saveamberparm lipid MY_PGR_PA.prmtop MY_PGR_PA.inpcrd
+lipid = sequence {MY PGR OL}
+setBox lipid "vdw" 20
+savepdb lipid MY_PGR_OL.pdb
+saveamberparm lipid MY_PGR_OL.prmtop MY_PGR_OL.inpcrd
+lipid = sequence {MY PGR ST}
+setBox lipid "vdw" 20
+savepdb lipid MY_PGR_ST.pdb
+saveamberparm lipid MY_PGR_ST.prmtop MY_PGR_ST.inpcrd
+lipid = sequence {MY PGR AR}
+setBox lipid "vdw" 20
+savepdb lipid MY_PGR_AR.pdb
+saveamberparm lipid MY_PGR_AR.prmtop MY_PGR_AR.inpcrd
+lipid = sequence {MY PGR DHA}
+setBox lipid "vdw" 20
+savepdb lipid MY_PGR_DHA.pdb
+saveamberparm lipid MY_PGR_DHA.prmtop MY_PGR_DHA.inpcrd
+lipid = sequence {MY PH- LAL}
+setBox lipid "vdw" 20
+savepdb lipid MY_PH-_LAL.pdb
+saveamberparm lipid MY_PH-_LAL.prmtop MY_PH-_LAL.inpcrd
+lipid = sequence {MY PH- MY}
+setBox lipid "vdw" 20
+savepdb lipid MY_PH-_MY.pdb
+saveamberparm lipid MY_PH-_MY.prmtop MY_PH-_MY.inpcrd
+lipid = sequence {MY PH- PA}
+setBox lipid "vdw" 20
+savepdb lipid MY_PH-_PA.pdb
+saveamberparm lipid MY_PH-_PA.prmtop MY_PH-_PA.inpcrd
+lipid = sequence {MY PH- OL}
+setBox lipid "vdw" 20
+savepdb lipid MY_PH-_OL.pdb
+saveamberparm lipid MY_PH-_OL.prmtop MY_PH-_OL.inpcrd
+lipid = sequence {MY PH- ST}
+setBox lipid "vdw" 20
+savepdb lipid MY_PH-_ST.pdb
+saveamberparm lipid MY_PH-_ST.prmtop MY_PH-_ST.inpcrd
+lipid = sequence {MY PH- AR}
+setBox lipid "vdw" 20
+savepdb lipid MY_PH-_AR.pdb
+saveamberparm lipid MY_PH-_AR.prmtop MY_PH-_AR.inpcrd
+lipid = sequence {MY PH- DHA}
+setBox lipid "vdw" 20
+savepdb lipid MY_PH-_DHA.pdb
+saveamberparm lipid MY_PH-_DHA.prmtop MY_PH-_DHA.inpcrd
+lipid = sequence {PA PC LAL}
+setBox lipid "vdw" 20
+savepdb lipid PA_PC_LAL.pdb
+saveamberparm lipid PA_PC_LAL.prmtop PA_PC_LAL.inpcrd
+lipid = sequence {PA PC MY}
+setBox lipid "vdw" 20
+savepdb lipid PA_PC_MY.pdb
+saveamberparm lipid PA_PC_MY.prmtop PA_PC_MY.inpcrd
+lipid = sequence {PA PC PA}
+setBox lipid "vdw" 20
+savepdb lipid PA_PC_PA.pdb
+saveamberparm lipid PA_PC_PA.prmtop PA_PC_PA.inpcrd
+lipid = sequence {PA PC OL}
+setBox lipid "vdw" 20
+savepdb lipid PA_PC_OL.pdb
+saveamberparm lipid PA_PC_OL.prmtop PA_PC_OL.inpcrd
+lipid = sequence {PA PC ST}
+setBox lipid "vdw" 20
+savepdb lipid PA_PC_ST.pdb
+saveamberparm lipid PA_PC_ST.prmtop PA_PC_ST.inpcrd
+lipid = sequence {PA PC AR}
+setBox lipid "vdw" 20
+savepdb lipid PA_PC_AR.pdb
+saveamberparm lipid PA_PC_AR.prmtop PA_PC_AR.inpcrd
+lipid = sequence {PA PC DHA}
+setBox lipid "vdw" 20
+savepdb lipid PA_PC_DHA.pdb
+saveamberparm lipid PA_PC_DHA.prmtop PA_PC_DHA.inpcrd
+lipid = sequence {PA PE LAL}
+setBox lipid "vdw" 20
+savepdb lipid PA_PE_LAL.pdb
+saveamberparm lipid PA_PE_LAL.prmtop PA_PE_LAL.inpcrd
+lipid = sequence {PA PE MY}
+setBox lipid "vdw" 20
+savepdb lipid PA_PE_MY.pdb
+saveamberparm lipid PA_PE_MY.prmtop PA_PE_MY.inpcrd
+lipid = sequence {PA PE PA}
+setBox lipid "vdw" 20
+savepdb lipid PA_PE_PA.pdb
+saveamberparm lipid PA_PE_PA.prmtop PA_PE_PA.inpcrd
+lipid = sequence {PA PE OL}
+setBox lipid "vdw" 20
+savepdb lipid PA_PE_OL.pdb
+saveamberparm lipid PA_PE_OL.prmtop PA_PE_OL.inpcrd
+lipid = sequence {PA PE ST}
+setBox lipid "vdw" 20
+savepdb lipid PA_PE_ST.pdb
+saveamberparm lipid PA_PE_ST.prmtop PA_PE_ST.inpcrd
+lipid = sequence {PA PE AR}
+setBox lipid "vdw" 20
+savepdb lipid PA_PE_AR.pdb
+saveamberparm lipid PA_PE_AR.prmtop PA_PE_AR.inpcrd
+lipid = sequence {PA PE DHA}
+setBox lipid "vdw" 20
+savepdb lipid PA_PE_DHA.pdb
+saveamberparm lipid PA_PE_DHA.prmtop PA_PE_DHA.inpcrd
+lipid = sequence {PA PS LAL}
+setBox lipid "vdw" 20
+savepdb lipid PA_PS_LAL.pdb
+saveamberparm lipid PA_PS_LAL.prmtop PA_PS_LAL.inpcrd
+lipid = sequence {PA PS MY}
+setBox lipid "vdw" 20
+savepdb lipid PA_PS_MY.pdb
+saveamberparm lipid PA_PS_MY.prmtop PA_PS_MY.inpcrd
+lipid = sequence {PA PS PA}
+setBox lipid "vdw" 20
+savepdb lipid PA_PS_PA.pdb
+saveamberparm lipid PA_PS_PA.prmtop PA_PS_PA.inpcrd
+lipid = sequence {PA PS OL}
+setBox lipid "vdw" 20
+savepdb lipid PA_PS_OL.pdb
+saveamberparm lipid PA_PS_OL.prmtop PA_PS_OL.inpcrd
+lipid = sequence {PA PS ST}
+setBox lipid "vdw" 20
+savepdb lipid PA_PS_ST.pdb
+saveamberparm lipid PA_PS_ST.prmtop PA_PS_ST.inpcrd
+lipid = sequence {PA PS AR}
+setBox lipid "vdw" 20
+savepdb lipid PA_PS_AR.pdb
+saveamberparm lipid PA_PS_AR.prmtop PA_PS_AR.inpcrd
+lipid = sequence {PA PS DHA}
+setBox lipid "vdw" 20
+savepdb lipid PA_PS_DHA.pdb
+saveamberparm lipid PA_PS_DHA.prmtop PA_PS_DHA.inpcrd
+lipid = sequence {PA PGR LAL}
+setBox lipid "vdw" 20
+savepdb lipid PA_PGR_LAL.pdb
+saveamberparm lipid PA_PGR_LAL.prmtop PA_PGR_LAL.inpcrd
+lipid = sequence {PA PGR MY}
+setBox lipid "vdw" 20
+savepdb lipid PA_PGR_MY.pdb
+saveamberparm lipid PA_PGR_MY.prmtop PA_PGR_MY.inpcrd
+lipid = sequence {PA PGR PA}
+setBox lipid "vdw" 20
+savepdb lipid PA_PGR_PA.pdb
+saveamberparm lipid PA_PGR_PA.prmtop PA_PGR_PA.inpcrd
+lipid = sequence {PA PGR OL}
+setBox lipid "vdw" 20
+savepdb lipid PA_PGR_OL.pdb
+saveamberparm lipid PA_PGR_OL.prmtop PA_PGR_OL.inpcrd
+lipid = sequence {PA PGR ST}
+setBox lipid "vdw" 20
+savepdb lipid PA_PGR_ST.pdb
+saveamberparm lipid PA_PGR_ST.prmtop PA_PGR_ST.inpcrd
+lipid = sequence {PA PGR AR}
+setBox lipid "vdw" 20
+savepdb lipid PA_PGR_AR.pdb
+saveamberparm lipid PA_PGR_AR.prmtop PA_PGR_AR.inpcrd
+lipid = sequence {PA PGR DHA}
+setBox lipid "vdw" 20
+savepdb lipid PA_PGR_DHA.pdb
+saveamberparm lipid PA_PGR_DHA.prmtop PA_PGR_DHA.inpcrd
+lipid = sequence {PA PH- LAL}
+setBox lipid "vdw" 20
+savepdb lipid PA_PH-_LAL.pdb
+saveamberparm lipid PA_PH-_LAL.prmtop PA_PH-_LAL.inpcrd
+lipid = sequence {PA PH- MY}
+setBox lipid "vdw" 20
+savepdb lipid PA_PH-_MY.pdb
+saveamberparm lipid PA_PH-_MY.prmtop PA_PH-_MY.inpcrd
+lipid = sequence {PA PH- PA}
+setBox lipid "vdw" 20
+savepdb lipid PA_PH-_PA.pdb
+saveamberparm lipid PA_PH-_PA.prmtop PA_PH-_PA.inpcrd
+lipid = sequence {PA PH- OL}
+setBox lipid "vdw" 20
+savepdb lipid PA_PH-_OL.pdb
+saveamberparm lipid PA_PH-_OL.prmtop PA_PH-_OL.inpcrd
+lipid = sequence {PA PH- ST}
+setBox lipid "vdw" 20
+savepdb lipid PA_PH-_ST.pdb
+saveamberparm lipid PA_PH-_ST.prmtop PA_PH-_ST.inpcrd
+lipid = sequence {PA PH- AR}
+setBox lipid "vdw" 20
+savepdb lipid PA_PH-_AR.pdb
+saveamberparm lipid PA_PH-_AR.prmtop PA_PH-_AR.inpcrd
+lipid = sequence {PA PH- DHA}
+setBox lipid "vdw" 20
+savepdb lipid PA_PH-_DHA.pdb
+saveamberparm lipid PA_PH-_DHA.prmtop PA_PH-_DHA.inpcrd
+lipid = sequence {OL PC LAL}
+setBox lipid "vdw" 20
+savepdb lipid OL_PC_LAL.pdb
+saveamberparm lipid OL_PC_LAL.prmtop OL_PC_LAL.inpcrd
+lipid = sequence {OL PC MY}
+setBox lipid "vdw" 20
+savepdb lipid OL_PC_MY.pdb
+saveamberparm lipid OL_PC_MY.prmtop OL_PC_MY.inpcrd
+lipid = sequence {OL PC PA}
+setBox lipid "vdw" 20
+savepdb lipid OL_PC_PA.pdb
+saveamberparm lipid OL_PC_PA.prmtop OL_PC_PA.inpcrd
+lipid = sequence {OL PC OL}
+setBox lipid "vdw" 20
+savepdb lipid OL_PC_OL.pdb
+saveamberparm lipid OL_PC_OL.prmtop OL_PC_OL.inpcrd
+lipid = sequence {OL PC ST}
+setBox lipid "vdw" 20
+savepdb lipid OL_PC_ST.pdb
+saveamberparm lipid OL_PC_ST.prmtop OL_PC_ST.inpcrd
+lipid = sequence {OL PC AR}
+setBox lipid "vdw" 20
+savepdb lipid OL_PC_AR.pdb
+saveamberparm lipid OL_PC_AR.prmtop OL_PC_AR.inpcrd
+lipid = sequence {OL PC DHA}
+setBox lipid "vdw" 20
+savepdb lipid OL_PC_DHA.pdb
+saveamberparm lipid OL_PC_DHA.prmtop OL_PC_DHA.inpcrd
+lipid = sequence {OL PE LAL}
+setBox lipid "vdw" 20
+savepdb lipid OL_PE_LAL.pdb
+saveamberparm lipid OL_PE_LAL.prmtop OL_PE_LAL.inpcrd
+lipid = sequence {OL PE MY}
+setBox lipid "vdw" 20
+savepdb lipid OL_PE_MY.pdb
+saveamberparm lipid OL_PE_MY.prmtop OL_PE_MY.inpcrd
+lipid = sequence {OL PE PA}
+setBox lipid "vdw" 20
+savepdb lipid OL_PE_PA.pdb
+saveamberparm lipid OL_PE_PA.prmtop OL_PE_PA.inpcrd
+lipid = sequence {OL PE OL}
+setBox lipid "vdw" 20
+savepdb lipid OL_PE_OL.pdb
+saveamberparm lipid OL_PE_OL.prmtop OL_PE_OL.inpcrd
+lipid = sequence {OL PE ST}
+setBox lipid "vdw" 20
+savepdb lipid OL_PE_ST.pdb
+saveamberparm lipid OL_PE_ST.prmtop OL_PE_ST.inpcrd
+lipid = sequence {OL PE AR}
+setBox lipid "vdw" 20
+savepdb lipid OL_PE_AR.pdb
+saveamberparm lipid OL_PE_AR.prmtop OL_PE_AR.inpcrd
+lipid = sequence {OL PE DHA}
+setBox lipid "vdw" 20
+savepdb lipid OL_PE_DHA.pdb
+saveamberparm lipid OL_PE_DHA.prmtop OL_PE_DHA.inpcrd
+lipid = sequence {OL PS LAL}
+setBox lipid "vdw" 20
+savepdb lipid OL_PS_LAL.pdb
+saveamberparm lipid OL_PS_LAL.prmtop OL_PS_LAL.inpcrd
+lipid = sequence {OL PS MY}
+setBox lipid "vdw" 20
+savepdb lipid OL_PS_MY.pdb
+saveamberparm lipid OL_PS_MY.prmtop OL_PS_MY.inpcrd
+lipid = sequence {OL PS PA}
+setBox lipid "vdw" 20
+savepdb lipid OL_PS_PA.pdb
+saveamberparm lipid OL_PS_PA.prmtop OL_PS_PA.inpcrd
+lipid = sequence {OL PS OL}
+setBox lipid "vdw" 20
+savepdb lipid OL_PS_OL.pdb
+saveamberparm lipid OL_PS_OL.prmtop OL_PS_OL.inpcrd
+lipid = sequence {OL PS ST}
+setBox lipid "vdw" 20
+savepdb lipid OL_PS_ST.pdb
+saveamberparm lipid OL_PS_ST.prmtop OL_PS_ST.inpcrd
+lipid = sequence {OL PS AR}
+setBox lipid "vdw" 20
+savepdb lipid OL_PS_AR.pdb
+saveamberparm lipid OL_PS_AR.prmtop OL_PS_AR.inpcrd
+lipid = sequence {OL PS DHA}
+setBox lipid "vdw" 20
+savepdb lipid OL_PS_DHA.pdb
+saveamberparm lipid OL_PS_DHA.prmtop OL_PS_DHA.inpcrd
+lipid = sequence {OL PGR LAL}
+setBox lipid "vdw" 20
+savepdb lipid OL_PGR_LAL.pdb
+saveamberparm lipid OL_PGR_LAL.prmtop OL_PGR_LAL.inpcrd
+lipid = sequence {OL PGR MY}
+setBox lipid "vdw" 20
+savepdb lipid OL_PGR_MY.pdb
+saveamberparm lipid OL_PGR_MY.prmtop OL_PGR_MY.inpcrd
+lipid = sequence {OL PGR PA}
+setBox lipid "vdw" 20
+savepdb lipid OL_PGR_PA.pdb
+saveamberparm lipid OL_PGR_PA.prmtop OL_PGR_PA.inpcrd
+lipid = sequence {OL PGR OL}
+setBox lipid "vdw" 20
+savepdb lipid OL_PGR_OL.pdb
+saveamberparm lipid OL_PGR_OL.prmtop OL_PGR_OL.inpcrd
+lipid = sequence {OL PGR ST}
+setBox lipid "vdw" 20
+savepdb lipid OL_PGR_ST.pdb
+saveamberparm lipid OL_PGR_ST.prmtop OL_PGR_ST.inpcrd
+lipid = sequence {OL PGR AR}
+setBox lipid "vdw" 20
+savepdb lipid OL_PGR_AR.pdb
+saveamberparm lipid OL_PGR_AR.prmtop OL_PGR_AR.inpcrd
+lipid = sequence {OL PGR DHA}
+setBox lipid "vdw" 20
+savepdb lipid OL_PGR_DHA.pdb
+saveamberparm lipid OL_PGR_DHA.prmtop OL_PGR_DHA.inpcrd
+lipid = sequence {OL PH- LAL}
+setBox lipid "vdw" 20
+savepdb lipid OL_PH-_LAL.pdb
+saveamberparm lipid OL_PH-_LAL.prmtop OL_PH-_LAL.inpcrd
+lipid = sequence {OL PH- MY}
+setBox lipid "vdw" 20
+savepdb lipid OL_PH-_MY.pdb
+saveamberparm lipid OL_PH-_MY.prmtop OL_PH-_MY.inpcrd
+lipid = sequence {OL PH- PA}
+setBox lipid "vdw" 20
+savepdb lipid OL_PH-_PA.pdb
+saveamberparm lipid OL_PH-_PA.prmtop OL_PH-_PA.inpcrd
+lipid = sequence {OL PH- OL}
+setBox lipid "vdw" 20
+savepdb lipid OL_PH-_OL.pdb
+saveamberparm lipid OL_PH-_OL.prmtop OL_PH-_OL.inpcrd
+lipid = sequence {OL PH- ST}
+setBox lipid "vdw" 20
+savepdb lipid OL_PH-_ST.pdb
+saveamberparm lipid OL_PH-_ST.prmtop OL_PH-_ST.inpcrd
+lipid = sequence {OL PH- AR}
+setBox lipid "vdw" 20
+savepdb lipid OL_PH-_AR.pdb
+saveamberparm lipid OL_PH-_AR.prmtop OL_PH-_AR.inpcrd
+lipid = sequence {OL PH- DHA}
+setBox lipid "vdw" 20
+savepdb lipid OL_PH-_DHA.pdb
+saveamberparm lipid OL_PH-_DHA.prmtop OL_PH-_DHA.inpcrd
+lipid = sequence {ST PC LAL}
+setBox lipid "vdw" 20
+savepdb lipid ST_PC_LAL.pdb
+saveamberparm lipid ST_PC_LAL.prmtop ST_PC_LAL.inpcrd
+lipid = sequence {ST PC MY}
+setBox lipid "vdw" 20
+savepdb lipid ST_PC_MY.pdb
+saveamberparm lipid ST_PC_MY.prmtop ST_PC_MY.inpcrd
+lipid = sequence {ST PC PA}
+setBox lipid "vdw" 20
+savepdb lipid ST_PC_PA.pdb
+saveamberparm lipid ST_PC_PA.prmtop ST_PC_PA.inpcrd
+lipid = sequence {ST PC OL}
+setBox lipid "vdw" 20
+savepdb lipid ST_PC_OL.pdb
+saveamberparm lipid ST_PC_OL.prmtop ST_PC_OL.inpcrd
+lipid = sequence {ST PC ST}
+setBox lipid "vdw" 20
+savepdb lipid ST_PC_ST.pdb
+saveamberparm lipid ST_PC_ST.prmtop ST_PC_ST.inpcrd
+lipid = sequence {ST PC AR}
+setBox lipid "vdw" 20
+savepdb lipid ST_PC_AR.pdb
+saveamberparm lipid ST_PC_AR.prmtop ST_PC_AR.inpcrd
+lipid = sequence {ST PC DHA}
+setBox lipid "vdw" 20
+savepdb lipid ST_PC_DHA.pdb
+saveamberparm lipid ST_PC_DHA.prmtop ST_PC_DHA.inpcrd
+lipid = sequence {ST PE LAL}
+setBox lipid "vdw" 20
+savepdb lipid ST_PE_LAL.pdb
+saveamberparm lipid ST_PE_LAL.prmtop ST_PE_LAL.inpcrd
+lipid = sequence {ST PE MY}
+setBox lipid "vdw" 20
+savepdb lipid ST_PE_MY.pdb
+saveamberparm lipid ST_PE_MY.prmtop ST_PE_MY.inpcrd
+lipid = sequence {ST PE PA}
+setBox lipid "vdw" 20
+savepdb lipid ST_PE_PA.pdb
+saveamberparm lipid ST_PE_PA.prmtop ST_PE_PA.inpcrd
+lipid = sequence {ST PE OL}
+setBox lipid "vdw" 20
+savepdb lipid ST_PE_OL.pdb
+saveamberparm lipid ST_PE_OL.prmtop ST_PE_OL.inpcrd
+lipid = sequence {ST PE ST}
+setBox lipid "vdw" 20
+savepdb lipid ST_PE_ST.pdb
+saveamberparm lipid ST_PE_ST.prmtop ST_PE_ST.inpcrd
+lipid = sequence {ST PE AR}
+setBox lipid "vdw" 20
+savepdb lipid ST_PE_AR.pdb
+saveamberparm lipid ST_PE_AR.prmtop ST_PE_AR.inpcrd
+lipid = sequence {ST PE DHA}
+setBox lipid "vdw" 20
+savepdb lipid ST_PE_DHA.pdb
+saveamberparm lipid ST_PE_DHA.prmtop ST_PE_DHA.inpcrd
+lipid = sequence {ST PS LAL}
+setBox lipid "vdw" 20
+savepdb lipid ST_PS_LAL.pdb
+saveamberparm lipid ST_PS_LAL.prmtop ST_PS_LAL.inpcrd
+lipid = sequence {ST PS MY}
+setBox lipid "vdw" 20
+savepdb lipid ST_PS_MY.pdb
+saveamberparm lipid ST_PS_MY.prmtop ST_PS_MY.inpcrd
+lipid = sequence {ST PS PA}
+setBox lipid "vdw" 20
+savepdb lipid ST_PS_PA.pdb
+saveamberparm lipid ST_PS_PA.prmtop ST_PS_PA.inpcrd
+lipid = sequence {ST PS OL}
+setBox lipid "vdw" 20
+savepdb lipid ST_PS_OL.pdb
+saveamberparm lipid ST_PS_OL.prmtop ST_PS_OL.inpcrd
+lipid = sequence {ST PS ST}
+setBox lipid "vdw" 20
+savepdb lipid ST_PS_ST.pdb
+saveamberparm lipid ST_PS_ST.prmtop ST_PS_ST.inpcrd
+lipid = sequence {ST PS AR}
+setBox lipid "vdw" 20
+savepdb lipid ST_PS_AR.pdb
+saveamberparm lipid ST_PS_AR.prmtop ST_PS_AR.inpcrd
+lipid = sequence {ST PS DHA}
+setBox lipid "vdw" 20
+savepdb lipid ST_PS_DHA.pdb
+saveamberparm lipid ST_PS_DHA.prmtop ST_PS_DHA.inpcrd
+lipid = sequence {ST PGR LAL}
+setBox lipid "vdw" 20
+savepdb lipid ST_PGR_LAL.pdb
+saveamberparm lipid ST_PGR_LAL.prmtop ST_PGR_LAL.inpcrd
+lipid = sequence {ST PGR MY}
+setBox lipid "vdw" 20
+savepdb lipid ST_PGR_MY.pdb
+saveamberparm lipid ST_PGR_MY.prmtop ST_PGR_MY.inpcrd
+lipid = sequence {ST PGR PA}
+setBox lipid "vdw" 20
+savepdb lipid ST_PGR_PA.pdb
+saveamberparm lipid ST_PGR_PA.prmtop ST_PGR_PA.inpcrd
+lipid = sequence {ST PGR OL}
+setBox lipid "vdw" 20
+savepdb lipid ST_PGR_OL.pdb
+saveamberparm lipid ST_PGR_OL.prmtop ST_PGR_OL.inpcrd
+lipid = sequence {ST PGR ST}
+setBox lipid "vdw" 20
+savepdb lipid ST_PGR_ST.pdb
+saveamberparm lipid ST_PGR_ST.prmtop ST_PGR_ST.inpcrd
+lipid = sequence {ST PGR AR}
+setBox lipid "vdw" 20
+savepdb lipid ST_PGR_AR.pdb
+saveamberparm lipid ST_PGR_AR.prmtop ST_PGR_AR.inpcrd
+lipid = sequence {ST PGR DHA}
+setBox lipid "vdw" 20
+savepdb lipid ST_PGR_DHA.pdb
+saveamberparm lipid ST_PGR_DHA.prmtop ST_PGR_DHA.inpcrd
+lipid = sequence {ST PH- LAL}
+setBox lipid "vdw" 20
+savepdb lipid ST_PH-_LAL.pdb
+saveamberparm lipid ST_PH-_LAL.prmtop ST_PH-_LAL.inpcrd
+lipid = sequence {ST PH- MY}
+setBox lipid "vdw" 20
+savepdb lipid ST_PH-_MY.pdb
+saveamberparm lipid ST_PH-_MY.prmtop ST_PH-_MY.inpcrd
+lipid = sequence {ST PH- PA}
+setBox lipid "vdw" 20
+savepdb lipid ST_PH-_PA.pdb
+saveamberparm lipid ST_PH-_PA.prmtop ST_PH-_PA.inpcrd
+lipid = sequence {ST PH- OL}
+setBox lipid "vdw" 20
+savepdb lipid ST_PH-_OL.pdb
+saveamberparm lipid ST_PH-_OL.prmtop ST_PH-_OL.inpcrd
+lipid = sequence {ST PH- ST}
+setBox lipid "vdw" 20
+savepdb lipid ST_PH-_ST.pdb
+saveamberparm lipid ST_PH-_ST.prmtop ST_PH-_ST.inpcrd
+lipid = sequence {ST PH- AR}
+setBox lipid "vdw" 20
+savepdb lipid ST_PH-_AR.pdb
+saveamberparm lipid ST_PH-_AR.prmtop ST_PH-_AR.inpcrd
+lipid = sequence {ST PH- DHA}
+setBox lipid "vdw" 20
+savepdb lipid ST_PH-_DHA.pdb
+saveamberparm lipid ST_PH-_DHA.prmtop ST_PH-_DHA.inpcrd
+lipid = sequence {AR PC LAL}
+setBox lipid "vdw" 20
+savepdb lipid AR_PC_LAL.pdb
+saveamberparm lipid AR_PC_LAL.prmtop AR_PC_LAL.inpcrd
+lipid = sequence {AR PC MY}
+setBox lipid "vdw" 20
+savepdb lipid AR_PC_MY.pdb
+saveamberparm lipid AR_PC_MY.prmtop AR_PC_MY.inpcrd
+lipid = sequence {AR PC PA}
+setBox lipid "vdw" 20
+savepdb lipid AR_PC_PA.pdb
+saveamberparm lipid AR_PC_PA.prmtop AR_PC_PA.inpcrd
+lipid = sequence {AR PC OL}
+setBox lipid "vdw" 20
+savepdb lipid AR_PC_OL.pdb
+saveamberparm lipid AR_PC_OL.prmtop AR_PC_OL.inpcrd
+lipid = sequence {AR PC ST}
+setBox lipid "vdw" 20
+savepdb lipid AR_PC_ST.pdb
+saveamberparm lipid AR_PC_ST.prmtop AR_PC_ST.inpcrd
+lipid = sequence {AR PC AR}
+setBox lipid "vdw" 20
+savepdb lipid AR_PC_AR.pdb
+saveamberparm lipid AR_PC_AR.prmtop AR_PC_AR.inpcrd
+lipid = sequence {AR PC DHA}
+setBox lipid "vdw" 20
+savepdb lipid AR_PC_DHA.pdb
+saveamberparm lipid AR_PC_DHA.prmtop AR_PC_DHA.inpcrd
+lipid = sequence {AR PE LAL}
+setBox lipid "vdw" 20
+savepdb lipid AR_PE_LAL.pdb
+saveamberparm lipid AR_PE_LAL.prmtop AR_PE_LAL.inpcrd
+lipid = sequence {AR PE MY}
+setBox lipid "vdw" 20
+savepdb lipid AR_PE_MY.pdb
+saveamberparm lipid AR_PE_MY.prmtop AR_PE_MY.inpcrd
+lipid = sequence {AR PE PA}
+setBox lipid "vdw" 20
+savepdb lipid AR_PE_PA.pdb
+saveamberparm lipid AR_PE_PA.prmtop AR_PE_PA.inpcrd
+lipid = sequence {AR PE OL}
+setBox lipid "vdw" 20
+savepdb lipid AR_PE_OL.pdb
+saveamberparm lipid AR_PE_OL.prmtop AR_PE_OL.inpcrd
+lipid = sequence {AR PE ST}
+setBox lipid "vdw" 20
+savepdb lipid AR_PE_ST.pdb
+saveamberparm lipid AR_PE_ST.prmtop AR_PE_ST.inpcrd
+lipid = sequence {AR PE AR}
+setBox lipid "vdw" 20
+savepdb lipid AR_PE_AR.pdb
+saveamberparm lipid AR_PE_AR.prmtop AR_PE_AR.inpcrd
+lipid = sequence {AR PE DHA}
+setBox lipid "vdw" 20
+savepdb lipid AR_PE_DHA.pdb
+saveamberparm lipid AR_PE_DHA.prmtop AR_PE_DHA.inpcrd
+lipid = sequence {AR PS LAL}
+setBox lipid "vdw" 20
+savepdb lipid AR_PS_LAL.pdb
+saveamberparm lipid AR_PS_LAL.prmtop AR_PS_LAL.inpcrd
+lipid = sequence {AR PS MY}
+setBox lipid "vdw" 20
+savepdb lipid AR_PS_MY.pdb
+saveamberparm lipid AR_PS_MY.prmtop AR_PS_MY.inpcrd
+lipid = sequence {AR PS PA}
+setBox lipid "vdw" 20
+savepdb lipid AR_PS_PA.pdb
+saveamberparm lipid AR_PS_PA.prmtop AR_PS_PA.inpcrd
+lipid = sequence {AR PS OL}
+setBox lipid "vdw" 20
+savepdb lipid AR_PS_OL.pdb
+saveamberparm lipid AR_PS_OL.prmtop AR_PS_OL.inpcrd
+lipid = sequence {AR PS ST}
+setBox lipid "vdw" 20
+savepdb lipid AR_PS_ST.pdb
+saveamberparm lipid AR_PS_ST.prmtop AR_PS_ST.inpcrd
+lipid = sequence {AR PS AR}
+setBox lipid "vdw" 20
+savepdb lipid AR_PS_AR.pdb
+saveamberparm lipid AR_PS_AR.prmtop AR_PS_AR.inpcrd
+lipid = sequence {AR PS DHA}
+setBox lipid "vdw" 20
+savepdb lipid AR_PS_DHA.pdb
+saveamberparm lipid AR_PS_DHA.prmtop AR_PS_DHA.inpcrd
+lipid = sequence {AR PGR LAL}
+setBox lipid "vdw" 20
+savepdb lipid AR_PGR_LAL.pdb
+saveamberparm lipid AR_PGR_LAL.prmtop AR_PGR_LAL.inpcrd
+lipid = sequence {AR PGR MY}
+setBox lipid "vdw" 20
+savepdb lipid AR_PGR_MY.pdb
+saveamberparm lipid AR_PGR_MY.prmtop AR_PGR_MY.inpcrd
+lipid = sequence {AR PGR PA}
+setBox lipid "vdw" 20
+savepdb lipid AR_PGR_PA.pdb
+saveamberparm lipid AR_PGR_PA.prmtop AR_PGR_PA.inpcrd
+lipid = sequence {AR PGR OL}
+setBox lipid "vdw" 20
+savepdb lipid AR_PGR_OL.pdb
+saveamberparm lipid AR_PGR_OL.prmtop AR_PGR_OL.inpcrd
+lipid = sequence {AR PGR ST}
+setBox lipid "vdw" 20
+savepdb lipid AR_PGR_ST.pdb
+saveamberparm lipid AR_PGR_ST.prmtop AR_PGR_ST.inpcrd
+lipid = sequence {AR PGR AR}
+setBox lipid "vdw" 20
+savepdb lipid AR_PGR_AR.pdb
+saveamberparm lipid AR_PGR_AR.prmtop AR_PGR_AR.inpcrd
+lipid = sequence {AR PGR DHA}
+setBox lipid "vdw" 20
+savepdb lipid AR_PGR_DHA.pdb
+saveamberparm lipid AR_PGR_DHA.prmtop AR_PGR_DHA.inpcrd
+lipid = sequence {AR PH- LAL}
+setBox lipid "vdw" 20
+savepdb lipid AR_PH-_LAL.pdb
+saveamberparm lipid AR_PH-_LAL.prmtop AR_PH-_LAL.inpcrd
+lipid = sequence {AR PH- MY}
+setBox lipid "vdw" 20
+savepdb lipid AR_PH-_MY.pdb
+saveamberparm lipid AR_PH-_MY.prmtop AR_PH-_MY.inpcrd
+lipid = sequence {AR PH- PA}
+setBox lipid "vdw" 20
+savepdb lipid AR_PH-_PA.pdb
+saveamberparm lipid AR_PH-_PA.prmtop AR_PH-_PA.inpcrd
+lipid = sequence {AR PH- OL}
+setBox lipid "vdw" 20
+savepdb lipid AR_PH-_OL.pdb
+saveamberparm lipid AR_PH-_OL.prmtop AR_PH-_OL.inpcrd
+lipid = sequence {AR PH- ST}
+setBox lipid "vdw" 20
+savepdb lipid AR_PH-_ST.pdb
+saveamberparm lipid AR_PH-_ST.prmtop AR_PH-_ST.inpcrd
+lipid = sequence {AR PH- AR}
+setBox lipid "vdw" 20
+savepdb lipid AR_PH-_AR.pdb
+saveamberparm lipid AR_PH-_AR.prmtop AR_PH-_AR.inpcrd
+lipid = sequence {AR PH- DHA}
+setBox lipid "vdw" 20
+savepdb lipid AR_PH-_DHA.pdb
+saveamberparm lipid AR_PH-_DHA.prmtop AR_PH-_DHA.inpcrd
+lipid = sequence {DHA PC LAL}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PC_LAL.pdb
+saveamberparm lipid DHA_PC_LAL.prmtop DHA_PC_LAL.inpcrd
+lipid = sequence {DHA PC MY}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PC_MY.pdb
+saveamberparm lipid DHA_PC_MY.prmtop DHA_PC_MY.inpcrd
+lipid = sequence {DHA PC PA}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PC_PA.pdb
+saveamberparm lipid DHA_PC_PA.prmtop DHA_PC_PA.inpcrd
+lipid = sequence {DHA PC OL}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PC_OL.pdb
+saveamberparm lipid DHA_PC_OL.prmtop DHA_PC_OL.inpcrd
+lipid = sequence {DHA PC ST}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PC_ST.pdb
+saveamberparm lipid DHA_PC_ST.prmtop DHA_PC_ST.inpcrd
+lipid = sequence {DHA PC AR}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PC_AR.pdb
+saveamberparm lipid DHA_PC_AR.prmtop DHA_PC_AR.inpcrd
+lipid = sequence {DHA PC DHA}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PC_DHA.pdb
+saveamberparm lipid DHA_PC_DHA.prmtop DHA_PC_DHA.inpcrd
+lipid = sequence {DHA PE LAL}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PE_LAL.pdb
+saveamberparm lipid DHA_PE_LAL.prmtop DHA_PE_LAL.inpcrd
+lipid = sequence {DHA PE MY}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PE_MY.pdb
+saveamberparm lipid DHA_PE_MY.prmtop DHA_PE_MY.inpcrd
+lipid = sequence {DHA PE PA}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PE_PA.pdb
+saveamberparm lipid DHA_PE_PA.prmtop DHA_PE_PA.inpcrd
+lipid = sequence {DHA PE OL}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PE_OL.pdb
+saveamberparm lipid DHA_PE_OL.prmtop DHA_PE_OL.inpcrd
+lipid = sequence {DHA PE ST}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PE_ST.pdb
+saveamberparm lipid DHA_PE_ST.prmtop DHA_PE_ST.inpcrd
+lipid = sequence {DHA PE AR}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PE_AR.pdb
+saveamberparm lipid DHA_PE_AR.prmtop DHA_PE_AR.inpcrd
+lipid = sequence {DHA PE DHA}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PE_DHA.pdb
+saveamberparm lipid DHA_PE_DHA.prmtop DHA_PE_DHA.inpcrd
+lipid = sequence {DHA PS LAL}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PS_LAL.pdb
+saveamberparm lipid DHA_PS_LAL.prmtop DHA_PS_LAL.inpcrd
+lipid = sequence {DHA PS MY}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PS_MY.pdb
+saveamberparm lipid DHA_PS_MY.prmtop DHA_PS_MY.inpcrd
+lipid = sequence {DHA PS PA}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PS_PA.pdb
+saveamberparm lipid DHA_PS_PA.prmtop DHA_PS_PA.inpcrd
+lipid = sequence {DHA PS OL}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PS_OL.pdb
+saveamberparm lipid DHA_PS_OL.prmtop DHA_PS_OL.inpcrd
+lipid = sequence {DHA PS ST}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PS_ST.pdb
+saveamberparm lipid DHA_PS_ST.prmtop DHA_PS_ST.inpcrd
+lipid = sequence {DHA PS AR}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PS_AR.pdb
+saveamberparm lipid DHA_PS_AR.prmtop DHA_PS_AR.inpcrd
+lipid = sequence {DHA PS DHA}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PS_DHA.pdb
+saveamberparm lipid DHA_PS_DHA.prmtop DHA_PS_DHA.inpcrd
+lipid = sequence {DHA PGR LAL}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PGR_LAL.pdb
+saveamberparm lipid DHA_PGR_LAL.prmtop DHA_PGR_LAL.inpcrd
+lipid = sequence {DHA PGR MY}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PGR_MY.pdb
+saveamberparm lipid DHA_PGR_MY.prmtop DHA_PGR_MY.inpcrd
+lipid = sequence {DHA PGR PA}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PGR_PA.pdb
+saveamberparm lipid DHA_PGR_PA.prmtop DHA_PGR_PA.inpcrd
+lipid = sequence {DHA PGR OL}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PGR_OL.pdb
+saveamberparm lipid DHA_PGR_OL.prmtop DHA_PGR_OL.inpcrd
+lipid = sequence {DHA PGR ST}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PGR_ST.pdb
+saveamberparm lipid DHA_PGR_ST.prmtop DHA_PGR_ST.inpcrd
+lipid = sequence {DHA PGR AR}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PGR_AR.pdb
+saveamberparm lipid DHA_PGR_AR.prmtop DHA_PGR_AR.inpcrd
+lipid = sequence {DHA PGR DHA}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PGR_DHA.pdb
+saveamberparm lipid DHA_PGR_DHA.prmtop DHA_PGR_DHA.inpcrd
+lipid = sequence {DHA PH- LAL}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PH-_LAL.pdb
+saveamberparm lipid DHA_PH-_LAL.prmtop DHA_PH-_LAL.inpcrd
+lipid = sequence {DHA PH- MY}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PH-_MY.pdb
+saveamberparm lipid DHA_PH-_MY.prmtop DHA_PH-_MY.inpcrd
+lipid = sequence {DHA PH- PA}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PH-_PA.pdb
+saveamberparm lipid DHA_PH-_PA.prmtop DHA_PH-_PA.inpcrd
+lipid = sequence {DHA PH- OL}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PH-_OL.pdb
+saveamberparm lipid DHA_PH-_OL.prmtop DHA_PH-_OL.inpcrd
+lipid = sequence {DHA PH- ST}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PH-_ST.pdb
+saveamberparm lipid DHA_PH-_ST.prmtop DHA_PH-_ST.inpcrd
+lipid = sequence {DHA PH- AR}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PH-_AR.pdb
+saveamberparm lipid DHA_PH-_AR.prmtop DHA_PH-_AR.inpcrd
+lipid = sequence {DHA PH- DHA}
+setBox lipid "vdw" 20
+savepdb lipid DHA_PH-_DHA.pdb
+saveamberparm lipid DHA_PH-_DHA.prmtop DHA_PH-_DHA.inpcrd
+lipid = sequence {CHL}
+setBox lipid "vdw" 20
+savepdb lipid CHL.pdb
+saveamberparm lipid CHL.prmtop CHL.inpcrd
