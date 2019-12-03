@@ -1,0 +1,31 @@
+;
+;	File 'topol.top' was generated
+;	By user: zhiyiwu (501)
+;	On host: bioch3235.bioch.ox.ac.uk
+;	At date: Fri Nov 16 15:50:09 2018
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2018.2 (-:
+;
+;	Executable:   /usr/local/gromacs/2018.2/icc_fftw/bin/gmx
+;	Data prefix:  /usr/local/gromacs/2018.2/icc_fftw
+;	Working dir:  /Volumes/GoogleDrive/My Drive/Simulations/KDEL/lipid_embed/open/equilibrium
+;	Command line:
+;	  gmx pdb2gmx -f NO_998.pdb -o protein.gro
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "lipid17.ff/forcefield.itp"
+
+#include "lipid17.itp"
+
+[ system ]
+; Name
+Lipid
+
+[ molecules ]
+; Compound        #mols
+{mol}               1
