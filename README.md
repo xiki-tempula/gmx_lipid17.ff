@@ -2,6 +2,8 @@ gmx_lipid17.ff:
 A gromacs port of the amber lipid force field LIPID17
 ==============================================================
 
+[![DOI](https://zenodo.org/badge/221526254.svg)](https://zenodo.org/badge/latestdoi/221526254)
+
 This is a gromacs port of the amber LIPID17 force field. The amber to gromacs
 format conversion is first done with ParmEd 3.2 (https://github.com/ParmEd/ParmEd).
 I have written a script to condense all the bonded interactions into force field
