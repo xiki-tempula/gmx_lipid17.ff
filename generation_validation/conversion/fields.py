@@ -73,12 +73,12 @@ class Moleculetype():
 
 class Atom():
     def __init__(self, nr, type, resnr, residue, atom, cgnr, charge, mass, typeB = '', chargeB = '', massB = ''):
-        self._nr = nr
+        self._nr = int(nr)
         self._type = type
-        self._resnr = resnr
+        self._resnr = int(resnr)
         self._residue = residue
         self._atom = atom
-        self._cgnr = cgnr
+        self._cgnr = int(cgnr)
         self._charge = charge
         self._mass = mass
         self._typeB = typeB
@@ -95,8 +95,8 @@ class Atom():
 
 class Bond():
     def __init__(self, i, j, func, b0 = '', kb = '', comment=''):
-        self._i = i
-        self._j = j
+        self._i = int(i)
+        self._j = int(j)
         self._func = func
         self._b0 = b0
         self._kb = kb
@@ -105,6 +105,9 @@ class Bond():
     def to_str(self):
         return '{: <7} {: <7} {: <6} {: <10} {: <14} ; {}'.format(self._i, self._j, self._func, self._b0, self._kb,
                                                                   self._comment)
+
+    def __contains__(self, idx):
+        return idx in [self._i, self._j]
 
     def __eq__(self, other):
         if (self._i == other._i) and (self._j == other._j) and \
@@ -132,9 +135,9 @@ class Pair():
 
 class Angle():
     def __init__(self, i, j, k, func, th0 = '', cth = '', comment=''):
-        self._i = i
-        self._j = j
-        self._k = k
+        self._i = int(i)
+        self._j = int(j)
+        self._k = int(k)
         self._func = func
         self._th0 = th0
         self._cth = cth
@@ -154,10 +157,10 @@ class Angle():
 
 class Dihedral():
     def __init__(self, i, j, k, l, func, phase = '', kd = '', pn='', comment=''):
-        self._i = i
-        self._j = j
-        self._k = k
-        self._l = l
+        self._i = int(i)
+        self._j = int(j)
+        self._k = int(k)
+        self._l = int(l)
         self._func = func
         self._phase = phase
         self._kd = kd
@@ -183,6 +186,10 @@ class Dihedral():
             return True
         else:
             return False
+
+    def __contains__(self, idx):
+        return idx in [self._i, self._j, self._k, self._l]
+
 class Field():
     def __init__(self, name):
         self.name = name
@@ -232,5 +239,18 @@ class Field():
             previous = self.content[i-1]
             if (current._i, current._j, current._k, current._l) == (previous._l, previous._k, previous._j, previous._i):
                 current._i, current._j, current._k, current._l = previous._i, previous._j, previous._k, previous._l
+
+    def atom_idx2attr(self, idx, attr):
+        for line in self.content:
+            if not isinstance(line, Comment):
+                if line._nr == idx:
+                    return getattr(line, attr)
+
+    def atom_reindex(self):
+        '''Alter the atom index to make sure that it can be used in rtp file'''
+        for index, line in enumerate(self.content):
+            if not isinstance(line, Comment):
+                line._mass = index
+                line._nr = ''
 
 

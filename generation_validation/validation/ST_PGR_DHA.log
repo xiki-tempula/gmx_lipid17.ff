@@ -29,8 +29,8 @@ of the License, or (at your option) any later version.
 GROMACS:      gmx mdrun, version 2019.4
 Executable:   /usr/local/gromacs/2019.4/bin/gmx
 Data prefix:  /usr/local/gromacs/2019.4
-Working dir:  /Volumes/GoogleDrive/My Drive/Simulations/KDEL/lipid17/validation
-Process ID:   32568
+Working dir:  /Users/grte2001/GitHub/gmx_lipid17.ff/generation_validation/validation
+Process ID:   26735
 Command line:
   gmx mdrun -deffnm ST_PGR_DHA
 
@@ -138,7 +138,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 1
    bd-fric                        = 0
-   ld-seed                        = 1365397649
+   ld-seed                        = 933710495
    emtol                          = 10
    emstep                         = 0.01
    niter                          = 20
@@ -315,18 +315,18 @@ We have the following groups for center of mass motion removal:
 There are: 135 Atoms
 Initial temperature: 0 K
 
-Started mdrun on rank 0 Wed Nov 13 18:11:26 2019
+Started mdrun on rank 0 Mon Nov 25 17:34:38 2019
 
            Step           Time
               0        0.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.  Improper Dih.          LJ-14
-    2.82123e+01    5.74442e+01    2.82076e+02    1.29331e-02    4.51379e+01
+    2.82123e+01    5.74442e+01    2.82076e+02    1.29329e-02    4.51379e+01
      Coulomb-14        LJ (SR)   Coulomb (SR)      Potential    Kinetic En.
     5.35246e+02   -2.01474e+01   -7.57117e+02    1.70864e+02    0.00000e+00
    Total Energy    Temperature Pressure (bar)
-    1.70864e+02    0.00000e+00    4.44443e+01
+    1.70864e+02    0.00000e+00    4.44442e+01
 
 	<======  ###############  ==>
 	<====  A V E R A G E S  ====>
@@ -336,21 +336,21 @@ Started mdrun on rank 0 Wed Nov 13 18:11:26 2019
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.  Improper Dih.          LJ-14
-    2.82123e+01    5.74442e+01    2.82076e+02    1.29331e-02    4.51379e+01
+    2.82123e+01    5.74442e+01    2.82076e+02    1.29329e-02    4.51379e+01
      Coulomb-14        LJ (SR)   Coulomb (SR)      Potential    Kinetic En.
     5.35246e+02   -2.01474e+01   -7.57117e+02    1.70864e+02    0.00000e+00
    Total Energy    Temperature Pressure (bar)
-    1.70864e+02    0.00000e+00    4.44443e+01
+    1.70864e+02    0.00000e+00    4.44442e+01
 
    Total Virial (kJ/mol)
-   -2.07399e+02   -6.18640e+00    3.84255e+01
-   -6.18619e+00   -5.26710e+02   -6.04592e+01
-    3.84290e+01   -6.04572e+01   -5.46394e+02
+   -2.07398e+02   -6.18598e+00    3.84294e+01
+   -6.18701e+00   -5.26710e+02   -6.04568e+01
+    3.84287e+01   -6.04584e+01   -5.46391e+02
 
    Pressure (bar)
-    2.15955e+01    6.44162e-01   -4.00107e+00
-    6.44140e-01    5.48439e+01    6.29534e+00
-   -4.00143e+00    6.29513e+00    5.68936e+01
+    2.15955e+01    6.44118e-01   -4.00148e+00
+    6.44225e-01    5.48440e+01    6.29510e+00
+   -4.00141e+00    6.29526e+00    5.68932e+01
 
 
 	M E G A - F L O P S   A C C O U N T I N G
@@ -385,34 +385,37 @@ On 1 MPI rank, each using 8 OpenMP threads
  Computing:          Num   Num      Call    Wall time         Giga-Cycles
                      Ranks Threads  Count      (s)         total sum    %
 -----------------------------------------------------------------------------
- Neighbor search        1    8          1       0.001          0.026   5.2
- Launch GPU ops.        1    8          1       0.004          0.125  24.5
- Force                  1    8          1       0.000          0.005   1.0
- Wait GPU NB local      1    8          1       0.000          0.005   1.0
- NB X/F buffer ops.     1    8          1       0.000          0.005   0.9
- Update                 1    8          4       0.001          0.024   4.7
- Rest                                           0.009          0.318  62.6
+ Neighbor search        1    8          1       0.001          0.024  11.7
+ Launch GPU ops.        1    8          1       0.004          0.132  64.0
+ Force                  1    8          1       0.000          0.006   2.7
+ Wait GPU NB local      1    8          1       0.000          0.006   2.9
+ NB X/F buffer ops.     1    8          1       0.000          0.002   1.0
+ Update                 1    8          4       0.000          0.007   3.4
+ Rest                                           0.001          0.029  14.2
 -----------------------------------------------------------------------------
- Total                                          0.015          0.508 100.0
+ Total                                          0.006          0.206 100.0
 -----------------------------------------------------------------------------
 
  GPU timings
 -----------------------------------------------------------------------------
  Computing:                         Count  Wall t (s)      ms/step       %
 -----------------------------------------------------------------------------
- Pair list H2D                          1       0.000        0.013    13.3
- X / q H2D                              1       0.000        0.004     4.1
- Nonbonded F+ene+prune k.               1       0.000        0.073    72.5
- F D2H                                  1       0.000        0.010    10.1
+ Pair list H2D                          1       0.000        0.029    16.0
+ X / q H2D                              1       0.000        0.006     3.5
+ Nonbonded F+ene+prune k.               1       0.000        0.129    71.5
+ F D2H                                  1       0.000        0.016     9.0
 -----------------------------------------------------------------------------
- Total                                          0.000        0.101   100.0
+ Total                                          0.000        0.180   100.0
 -----------------------------------------------------------------------------
 
-Average per-step force GPU/CPU evaluation time ratio: 0.101 ms/0.144 ms = 0.700
+Average per-step force GPU/CPU evaluation time ratio: 0.180 ms/0.169 ms = 1.067
+
+NOTE: 12 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
 
                Core t (s)   Wall t (s)        (%)
-       Time:        0.097        0.015      643.0
+       Time:        0.049        0.006      793.6
                  (ns/day)    (hour/ns)
-Performance:       11.429        2.100
-Finished mdrun on rank 0 Wed Nov 13 18:11:26 2019
+Performance:       28.149        0.853
+Finished mdrun on rank 0 Mon Nov 25 17:34:38 2019
 

@@ -2,7 +2,7 @@
 ;   File DHA_PGR_ST.top  was generated
 ;   By user: grte2001 (13439)
 ;   On host: mc73235.bioch.ox.ac.uk
-;   At date: Wed. November  3 17:54:29 2019
+;   At date: Thu. November  4 11:05:32 2019
 ;
 ;   This is a standalone topology file
 ;
@@ -11,7 +11,7 @@
 ;   Executable:   parmed_conversion.py
 ;   Library dir:  /usr/local/gromacs/2018.6/share/gromacs/top
 ;   Command line:
-;     parmed_conversion.py
+;     /Users/grte2001/GitHub/gmx_lipid17.ff/generation_validation/generation/parmed_conversion.py
 ;
 
 [ defaults ]

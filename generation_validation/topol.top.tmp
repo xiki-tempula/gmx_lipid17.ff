@@ -18,9 +18,9 @@
 ;
 
 ; Include forcefield parameters
-#include "lipid17.ff/forcefield.itp"
+#include "../lipid17.ff/forcefield.itp"
 
-#include "lipid17.itp"
+#include "../lipid17.itp"
 
 [ system ]
 ; Name

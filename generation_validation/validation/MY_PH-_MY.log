@@ -29,8 +29,8 @@ of the License, or (at your option) any later version.
 GROMACS:      gmx mdrun, version 2019.4
 Executable:   /usr/local/gromacs/2019.4/bin/gmx
 Data prefix:  /usr/local/gromacs/2019.4
-Working dir:  /Volumes/GoogleDrive/My Drive/Simulations/KDEL/lipid17/validation
-Process ID:   32173
+Working dir:  /Users/grte2001/GitHub/gmx_lipid17.ff/generation_validation/validation
+Process ID:   26299
 Command line:
   gmx mdrun -deffnm MY_PH-_MY
 
@@ -138,7 +138,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 1
    bd-fric                        = 0
-   ld-seed                        = 375858162
+   ld-seed                        = 1285272193
    emtol                          = 10
    emstep                         = 0.01
    niter                          = 20
@@ -315,7 +315,7 @@ We have the following groups for center of mass motion removal:
 There are: 100 Atoms
 Initial temperature: 0 K
 
-Started mdrun on rank 0 Wed Nov 13 18:07:15 2019
+Started mdrun on rank 0 Mon Nov 25 17:32:51 2019
 
            Step           Time
               0        0.00000
@@ -326,7 +326,7 @@ Started mdrun on rank 0 Wed Nov 13 18:07:15 2019
      Coulomb-14        LJ (SR)   Coulomb (SR)      Potential    Kinetic En.
    -1.56319e+02    3.66760e+00   -4.20716e+02   -3.13785e+02    0.00000e+00
    Total Energy    Temperature Pressure (bar)
-   -3.13785e+02    0.00000e+00    2.28712e+01
+   -3.13785e+02    0.00000e+00    2.28713e+01
 
 	<======  ###############  ==>
 	<====  A V E R A G E S  ====>
@@ -340,17 +340,17 @@ Started mdrun on rank 0 Wed Nov 13 18:07:15 2019
      Coulomb-14        LJ (SR)   Coulomb (SR)      Potential    Kinetic En.
    -1.56319e+02    3.66760e+00   -4.20716e+02   -3.13785e+02    0.00000e+00
    Total Energy    Temperature Pressure (bar)
-   -3.13785e+02    0.00000e+00    2.28712e+01
+   -3.13785e+02    0.00000e+00    2.28713e+01
 
    Total Virial (kJ/mol)
-   -6.48052e+01   -1.14351e+02    1.28569e+01
-   -1.14351e+02    3.25266e+01   -9.39248e+01
-    1.28530e+01   -9.39219e+01   -3.76090e+02
+   -6.48047e+01   -1.14351e+02    1.28568e+01
+   -1.14351e+02    3.25244e+01   -9.39224e+01
+    1.28547e+01   -9.39219e+01   -3.76089e+02
 
    Pressure (bar)
-    1.08885e+01    1.92131e+01   -2.16020e+00
-    1.92131e+01   -5.46510e+00    1.57812e+01
-   -2.15956e+00    1.57807e+01    6.31903e+01
+    1.08884e+01    1.92131e+01   -2.16019e+00
+    1.92132e+01   -5.46473e+00    1.57808e+01
+   -2.15984e+00    1.57807e+01    6.31902e+01
 
 
 	M E G A - F L O P S   A C C O U N T I N G
@@ -385,37 +385,37 @@ On 1 MPI rank, each using 8 OpenMP threads
  Computing:          Num   Num      Call    Wall time         Giga-Cycles
                      Ranks Threads  Count      (s)         total sum    %
 -----------------------------------------------------------------------------
- Neighbor search        1    8          1       0.001          0.044  13.5
- Launch GPU ops.        1    8          1       0.004          0.140  43.1
- Force                  1    8          1       0.000          0.004   1.2
- Wait GPU NB local      1    8          1       0.000          0.006   1.8
- NB X/F buffer ops.     1    8          1       0.000          0.002   0.6
- Update                 1    8          4       0.000          0.005   1.6
- Rest                                           0.004          0.123  38.0
+ Neighbor search        1    8          1       0.001          0.026  13.7
+ Launch GPU ops.        1    8          1       0.004          0.124  65.8
+ Force                  1    8          1       0.000          0.005   2.6
+ Wait GPU NB local      1    8          1       0.000          0.005   2.8
+ NB X/F buffer ops.     1    8          1       0.000          0.001   0.8
+ Update                 1    8          4       0.000          0.004   2.1
+ Rest                                           0.001          0.023  12.1
 -----------------------------------------------------------------------------
- Total                                          0.010          0.324 100.0
+ Total                                          0.006          0.188 100.0
 -----------------------------------------------------------------------------
 
  GPU timings
 -----------------------------------------------------------------------------
  Computing:                         Count  Wall t (s)      ms/step       %
 -----------------------------------------------------------------------------
- Pair list H2D                          1       0.000        0.031    19.5
- X / q H2D                              1       0.000        0.005     3.3
- Nonbonded F+ene+prune k.               1       0.000        0.107    66.5
- F D2H                                  1       0.000        0.017    10.7
+ Pair list H2D                          1       0.000        0.027    14.3
+ X / q H2D                              1       0.000        0.005     2.9
+ Nonbonded F+ene+prune k.               1       0.000        0.135    71.8
+ F D2H                                  1       0.000        0.020    10.9
 -----------------------------------------------------------------------------
- Total                                          0.000        0.160   100.0
+ Total                                          0.000        0.188   100.0
 -----------------------------------------------------------------------------
 
-Average per-step force GPU/CPU evaluation time ratio: 0.160 ms/0.119 ms = 1.343
+Average per-step force GPU/CPU evaluation time ratio: 0.188 ms/0.146 ms = 1.281
 
-NOTE: 13 % of the run time was spent in pair search,
+NOTE: 14 % of the run time was spent in pair search,
       you might want to increase nstlist (this has no effect on accuracy)
 
                Core t (s)   Wall t (s)        (%)
-       Time:        0.062        0.010      639.4
+       Time:        0.044        0.006      790.9
                  (ns/day)    (hour/ns)
-Performance:       17.916        1.340
-Finished mdrun on rank 0 Wed Nov 13 18:07:15 2019
+Performance:       30.907        0.777
+Finished mdrun on rank 0 Mon Nov 25 17:32:51 2019
 

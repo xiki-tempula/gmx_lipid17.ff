@@ -3,7 +3,7 @@ A gromacs port of the amber lipid force field LIPID17
 ==============================================================
 
 This is a gromacs port of the amber LIPID17 force field. The amber to gromacs
-format conversion is first done with ParmEd 2.6 (https://github.com/ParmEd/ParmEd).
+format conversion is first done with ParmEd 3.2 (https://github.com/ParmEd/ParmEd).
 I have written a script to condense all the bonded interactions into force field
 format, provide the corresponding gro file for every lipids and validate the
 energy to make sure the gromacs port yield the same energy as the original amber
@@ -85,6 +85,15 @@ Alternatively, the amber lipids can be used directly. The gro file for each
 lipid can be found in the [`gro`](https://github.com/xiki-tempula/gmx_lipid17.ff/tree/master/gro) folder. for lipid POPC, the gro file has a name
 of `PA_PC_OL.gro`. Or one can generate the lipid bilayer in amber and use it in
 gromacs.
+
+## Use pdb2gmx to generate the lipid force forcefield
+
+This Gromcas port of the amber lipid has retained the modular feature of the
+original amber LIPID17 lipid force field, where custom head group or acryl
+chain can parameterised and used in conjunction with the head group and acryl
+chain in the LIPID17 force field. I have parameterised the phosphatidylinositol (PI)
+head group and use pdb2gmx to generate the relevant topology in the folder
+[`example_PI`](https://github.com/xiki-tempula/gmx_lipid17.ff/tree/master/example_PI).
 
 # Generation and validation
 The files and script for generation and validation can be found in the folder

@@ -2,20 +2,15 @@ import copy
 import os
 from fields import *
 
+
 class Topology():
     def __init__(self):
         self.content_dict = {}
         self.content_list = []
         self.name = None
 
-
-    def _idx2name(self, idx):
-        for atom in self.content_dict['atoms']:
-            try:
-                if atom._nr == idx:
-                    return atom._type
-            except:
-                pass
+    def __repr__(self):
+        return self.name
 
     def convert_ff(self):
         for atomtype in self.content_dict['atomtypes']:
@@ -28,8 +23,8 @@ class Topology():
                 new_bond._comment = self.name + bond.to_str()
                 bond._b0 = ''
                 bond._kb = ''
-                new_bond._i = self._idx2name(bond._i)
-                new_bond._j = self._idx2name(bond._j)
+                new_bond._i = self.content_dict['atoms'].atom_idx2attr(bond._i, '_type')
+                new_bond._j = self.content_dict['atoms'].atom_idx2attr(bond._j, '_type')
                 bondtypes.append(new_bond)
         bondtypes.uniqle()
         self.content_dict['bondtypes'] = bondtypes
@@ -41,9 +36,9 @@ class Topology():
                 new_angle._comment = self.name + angle.to_str()
                 angle._th0 = ''
                 angle._cth = ''
-                new_angle._i = self._idx2name(angle._i)
-                new_angle._j = self._idx2name(angle._j)
-                new_angle._k = self._idx2name(angle._k)
+                new_angle._i = self.content_dict['atoms'].atom_idx2attr(angle._i, '_type')
+                new_angle._j = self.content_dict['atoms'].atom_idx2attr(angle._j, '_type')
+                new_angle._k = self.content_dict['atoms'].atom_idx2attr(angle._k, '_type')
                 angletypes.append(new_angle)
         angletypes.uniqle()
         self.content_dict['angletypes'] = angletypes
@@ -59,13 +54,129 @@ class Topology():
                 if dihedral._func == '1':
                     dihedral._func = '9'
                     new_dihedral._func = '9'
-                new_dihedral._i = self._idx2name(dihedral._i)
-                new_dihedral._j = self._idx2name(dihedral._j)
-                new_dihedral._k = self._idx2name(dihedral._k)
-                new_dihedral._l = self._idx2name(dihedral._l)
+                new_dihedral._i = self.content_dict['atoms'].atom_idx2attr(dihedral._i, '_type')
+                new_dihedral._j = self.content_dict['atoms'].atom_idx2attr(dihedral._j, '_type')
+                new_dihedral._k = self.content_dict['atoms'].atom_idx2attr(dihedral._k, '_type')
+                new_dihedral._l = self.content_dict['atoms'].atom_idx2attr(dihedral._l, '_type')
 
                 dihedraltypes.append(new_dihedral)
         dihedraltypes.sort_dihedral()
         dihedraltypes.uniqle()
         self.content_dict['dihedrals'].uniqle()
         self.content_dict['dihedraltypes'] = dihedraltypes
+    #
+    def convert_ff_rtp(self, start_residue_suffix, end_residue_suffix):
+        residue_list = []
+        previous_residue = None
+        atoms = Field('atoms')
+        for line in self.content_list:
+            if isinstance(line, Comment):
+                if len(line._content.split()) == 7:
+                    try:
+                        _, resid, resname1, _, resname2, _, charge = line._content.split()
+                        assert resname1 == resname2
+                        resname = resname1
+
+                        if (not (previous_residue is None)) and (previous_residue != resname):
+                            top = Topology()
+                            bonds = Field('bonds')
+                            impropers = Field('impropers')
+                            top.content_dict = {'atoms': atoms, 'bonds': bonds, 'impropers': impropers}
+                            top.name = previous_residue
+                            residue_list.append(top)
+                            previous_residue = resname
+                            atoms = Field('atoms')
+                        elif previous_residue is None:
+                            previous_residue = resname
+
+                    except:
+                        pass
+
+            elif isinstance(line, Atom):
+                assert line._residue == previous_residue
+                new_atom = copy.copy(line)
+                new_atom._type, new_atom._atom = line._atom, line._type
+                new_atom._resnr = ''
+                new_atom._residue = ''
+                new_atom._mass = ''
+                new_atom._cgnr = ''
+                atoms.append(new_atom)
+        else:
+            top = Topology()
+            bonds = Field('bonds')
+            impropers = Field('impropers')
+            top.content_dict = {'atoms': atoms, 'bonds': bonds, 'impropers': impropers}
+            top.name = previous_residue
+            residue_list.append(top)
+
+        residue_start_index = []
+        residue_end_index = []
+        for residue in residue_list:
+            residue_start_index.append(residue.content_dict['atoms'][0]._atom)
+            residue_end_index.append(residue.content_dict['atoms'][-1]._atom)
+
+        for line in self.content_list:
+            if isinstance(line, Bond):
+                new_bond = copy.copy(line)
+                new_bond._comment = self.name + line.to_str()
+                new_bond._b0 = ''
+                new_bond._kb = ''
+                new_bond._i = self.content_dict['atoms'].atom_idx2attr(line._i, '_atom')
+                new_bond._j = self.content_dict['atoms'].atom_idx2attr(line._j, '_atom')
+                new_bond._func = ''
+
+                for residue in residue_list:
+                    start_id = residue.content_dict['atoms'][0]._nr
+                    end_id = residue.content_dict['atoms'][-1]._nr
+                    if (line._i > start_id and line._i < end_id) or (line._j > start_id and line._j < end_id):
+                        residue_bond = copy.copy(new_bond)
+                        for idx in ['_i', '_j']:
+                            if getattr(line, idx) < start_id:
+                                setattr(residue_bond, idx, '-' + getattr(new_bond, idx))
+                            elif getattr(line, idx) > end_id:
+                                setattr(residue_bond, idx, '+' + getattr(new_bond, idx))
+                        residue.content_dict['bonds'].append(residue_bond)
+                        break
+
+            elif isinstance(line, Dihedral):
+                if line._func == '4':
+                    new_dihedral = copy.copy(line)
+                    new_dihedral._comment = self.name + line.to_str()
+                    new_dihedral._i = self.content_dict['atoms'].atom_idx2attr(line._i, '_atom')
+                    new_dihedral._j = self.content_dict['atoms'].atom_idx2attr(line._j, '_atom')
+                    new_dihedral._k = self.content_dict['atoms'].atom_idx2attr(line._k, '_atom')
+                    new_dihedral._l = self.content_dict['atoms'].atom_idx2attr(line._l, '_atom')
+                    new_dihedral._func = ''
+                    new_dihedral._phase = ''
+                    new_dihedral._kd = ''
+                    new_dihedral._pn = ''
+                    for residue in residue_list:
+                        start_id = residue.content_dict['atoms'][0]._nr
+                        end_id = residue.content_dict['atoms'][-1]._nr
+
+                        if (line._i > start_id and line._i < end_id) or \
+                           (line._j > start_id and line._j < end_id) or \
+                           (line._k > start_id and line._k < end_id) or \
+                           (line._l > start_id and line._l < end_id):
+                            residue_dihedral = copy.copy(new_dihedral)
+                            for idx in ['_i', '_j', '_k', '_l']:
+                                if getattr(line, idx) < start_id:
+                                    setattr(residue_dihedral, idx, '-' + getattr(new_dihedral, idx))
+                                elif getattr(line, idx) > end_id:
+                                    setattr(residue_dihedral, idx, '+' + getattr(new_dihedral, idx))
+                            residue.content_dict['impropers'].append(residue_dihedral)
+                            break
+
+        for index, residue in enumerate(residue_list):
+            residue.content_dict['atoms'].atom_reindex()
+            residue.content_dict['bonds'].uniqle()
+            residue.content_dict['impropers'].uniqle()
+            if len(residue_list) > 1:
+                if index == 0:
+                    residue.original_name = residue.name
+                    residue.name = residue.name + start_residue_suffix
+                elif index == len(residue_list)-1:
+                    residue.original_name = residue.name
+                    residue.name = residue.name + end_residue_suffix
+        return residue_list
+

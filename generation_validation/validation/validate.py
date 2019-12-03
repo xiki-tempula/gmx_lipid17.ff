@@ -1,5 +1,9 @@
+import os
 from subprocess import call
 import numpy as np
+#
+os.environ["GMXLIB"] = os.path.split(os.path.split(os.getcwd())[0])[0]
+os.environ["GMX_MAXBACKUP"] = '-1'
 gmx = '/usr/local/gromacs/2019.4/bin/gmx'
 sander = '/Users/grte2001/src/amber18/bin/sander'
 
@@ -33,16 +37,15 @@ def gromacs_energy(txt):
 
 acyl_list = ['LAL', 'MY', 'PA', 'OL', 'ST', 'AR', 'DHA']
 head_group_list = ['PC', 'PE', 'PS', 'PGR', 'PH-']
+with open('energy_difference.log', 'w') as f:
+    f.write('Energy difference:\n')
 energy_difference_list = []
 for acyl_1 in acyl_list:
     for head_group in head_group_list:
         for acyl_2 in acyl_list:
             lipid = '{}_{}_{}'.format(acyl_1, head_group, acyl_2)
-            with open('../topol.top', 'w') as f:
-                with open('../topol.top.tmp', 'r') as tmp:
-                    f.write(tmp.read().format(mol=lipid))
-
-            call('{gmx} grompp -f gromacs.mdp -c ../generation/{lipid}.pdb -o {lipid}.tpr -p ../topol.top'.format(gmx=gmx,
+            call('{gmx} pdb2gmx -f ../../gro/{lipid}.gro -o temp.gro -ff lipid17'.format(gmx=gmx, lipid=lipid), shell=True)
+            call('{gmx} grompp -f gromacs.mdp -c ../generation/{lipid}.pdb -o {lipid}.tpr'.format(gmx=gmx,
                                                                                                            lipid=lipid),
                  shell=True)
             call('{gmx} mdrun -deffnm {lipid}'.format(gmx=gmx, lipid=lipid), shell=True)
@@ -58,13 +61,9 @@ for acyl_1 in acyl_list:
                 f.write('{}: Potential {:.2f}; Bond {:.2f}; Angle {:.2f}; Dihedral {:.2f}\n'.format(lipid, *energy_difference))
 
 lipid = 'CHL'
-with open('../topol.top', 'w') as f:
-    with open('../topol.top.tmp', 'r') as tmp:
-        f.write(tmp.read().format(mol=lipid))
 
-call('{gmx} grompp -f gromacs.mdp -c ../generation/{lipid}.pdb -o {lipid}.tpr -p ../topol.top'.format(gmx=gmx,
-                                                                                                      lipid=lipid),
-     shell=True)
+call('{gmx} pdb2gmx -f ../../gro/{lipid}.gro -o temp.gro -ff lipid17'.format(gmx=gmx, lipid=lipid), shell=True)
+call('{gmx} grompp -f gromacs.mdp -c ../generation/{lipid}.pdb -o {lipid}.tpr'.format(gmx=gmx, lipid=lipid), shell=True)
 call('{gmx} mdrun -deffnm {lipid}'.format(gmx=gmx, lipid=lipid), shell=True)
 gmx_energy = gromacs_energy('{lipid}.log'.format(lipid=lipid))
 call(
