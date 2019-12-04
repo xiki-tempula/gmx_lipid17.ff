@@ -11,7 +11,9 @@ generated using the `pdb2gmx` function of Gromacs. The `GMXLIB` has to be set to
 the current directory first.
 
 ```bash
-export GMXLIB=$PWD
+cat lipids.rtp >> ../lipid17.ff/lipids.rtp
+cat ../residuetypes.dat >> residuetypes.dat
+export GMXLIB=$PWD/../
 gmx pdb2gmx -f DMPI.pdb -o DMPI.gro -ff lipid17
 ```
 
