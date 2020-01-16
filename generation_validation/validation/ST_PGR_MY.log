@@ -30,7 +30,7 @@ GROMACS:      gmx mdrun, version 2019.4
 Executable:   /usr/local/gromacs/2019.4/bin/gmx
 Data prefix:  /usr/local/gromacs/2019.4
 Working dir:  /Users/grte2001/GitHub/gmx_lipid17.ff/generation_validation/validation
-Process ID:   26713
+Process ID:   42765
 Command line:
   gmx mdrun -deffnm ST_PGR_MY
 
@@ -138,7 +138,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 1
    bd-fric                        = 0
-   ld-seed                        = 28992187
+   ld-seed                        = 1855420925
    emtol                          = 10
    emstep                         = 0.01
    niter                          = 20
@@ -315,7 +315,7 @@ We have the following groups for center of mass motion removal:
 There are: 123 Atoms
 Initial temperature: 0 K
 
-Started mdrun on rank 0 Mon Nov 25 17:34:33 2019
+Started mdrun on rank 0 Thu Jan 16 16:50:48 2020
 
            Step           Time
               0        0.00000
@@ -324,9 +324,9 @@ Started mdrun on rank 0 Mon Nov 25 17:34:33 2019
            Bond          Angle    Proper Dih.  Improper Dih.          LJ-14
     3.74304e+01    5.16802e+01    1.27740e+02    3.11608e-04    5.04975e+01
      Coulomb-14        LJ (SR)   Coulomb (SR)      Potential    Kinetic En.
-    5.24486e+02   -4.40740e+00   -7.94189e+02   -6.76160e+00    0.00000e+00
+    5.24486e+02   -4.40740e+00   -7.94189e+02   -6.76166e+00    0.00000e+00
    Total Energy    Temperature Pressure (bar)
-   -6.76160e+00    0.00000e+00    6.00936e+01
+   -6.76166e+00    0.00000e+00    6.00936e+01
 
 	<======  ###############  ==>
 	<====  A V E R A G E S  ====>
@@ -338,17 +338,17 @@ Started mdrun on rank 0 Mon Nov 25 17:34:33 2019
            Bond          Angle    Proper Dih.  Improper Dih.          LJ-14
     3.74304e+01    5.16802e+01    1.27740e+02    3.11608e-04    5.04975e+01
      Coulomb-14        LJ (SR)   Coulomb (SR)      Potential    Kinetic En.
-    5.24486e+02   -4.40740e+00   -7.94189e+02   -6.76160e+00    0.00000e+00
+    5.24486e+02   -4.40740e+00   -7.94189e+02   -6.76166e+00    0.00000e+00
    Total Energy    Temperature Pressure (bar)
-   -6.76160e+00    0.00000e+00    6.00936e+01
+   -6.76166e+00    0.00000e+00    6.00936e+01
 
    Total Virial (kJ/mol)
-   -1.11217e+02   -1.54464e+02   -9.62167e+01
+   -1.11218e+02   -1.54463e+02   -9.62177e+01
    -1.54465e+02   -3.96242e+02   -5.77719e+01
    -9.62178e+01   -5.77701e+01   -6.36090e+02
 
    Pressure (bar)
-    1.75334e+01    2.43512e+01    1.51686e+01
+    1.75335e+01    2.43512e+01    1.51687e+01
     2.43514e+01    6.24677e+01    9.10774e+00
     1.51688e+01    9.10746e+00    1.00280e+02
 
@@ -385,37 +385,34 @@ On 1 MPI rank, each using 8 OpenMP threads
  Computing:          Num   Num      Call    Wall time         Giga-Cycles
                      Ranks Threads  Count      (s)         total sum    %
 -----------------------------------------------------------------------------
- Neighbor search        1    8          1       0.002          0.058  20.7
- Launch GPU ops.        1    8          1       0.004          0.138  49.4
- Force                  1    8          1       0.001          0.035  12.7
- Wait GPU NB local      1    8          1       0.000          0.004   1.6
- NB X/F buffer ops.     1    8          1       0.000          0.010   3.5
- Update                 1    8          4       0.000          0.007   2.6
- Rest                                           0.001          0.027   9.6
+ Neighbor search        1    8          1       0.000          0.012   7.2
+ Launch GPU ops.        1    8          1       0.003          0.112  65.8
+ Force                  1    8          1       0.000          0.004   2.5
+ Wait GPU NB local      1    8          1       0.001          0.024  14.2
+ NB X/F buffer ops.     1    8          1       0.000          0.000   0.2
+ Update                 1    8          4       0.000          0.000   0.3
+ Rest                                           0.001          0.017   9.9
 -----------------------------------------------------------------------------
- Total                                          0.008          0.280 100.0
+ Total                                          0.005          0.170 100.0
 -----------------------------------------------------------------------------
 
  GPU timings
 -----------------------------------------------------------------------------
  Computing:                         Count  Wall t (s)      ms/step       %
 -----------------------------------------------------------------------------
- Pair list H2D                          1       0.000        0.023    17.9
- X / q H2D                              1       0.000        0.004     3.2
- Nonbonded F+ene+prune k.               1       0.000        0.092    70.4
- F D2H                                  1       0.000        0.011     8.5
+ Pair list H2D                          1       0.000        0.013    13.1
+ X / q H2D                              1       0.000        0.003     2.6
+ Nonbonded F+ene+prune k.               1       0.000        0.076    75.4
+ F D2H                                  1       0.000        0.009     8.9
 -----------------------------------------------------------------------------
- Total                                          0.000        0.130   100.0
+ Total                                          0.000        0.100   100.0
 -----------------------------------------------------------------------------
 
-Average per-step force GPU/CPU evaluation time ratio: 0.130 ms/1.054 ms = 0.123
-
-NOTE: 21 % of the run time was spent in pair search,
-      you might want to increase nstlist (this has no effect on accuracy)
+Average per-step force GPU/CPU evaluation time ratio: 0.100 ms/0.128 ms = 0.785
 
                Core t (s)   Wall t (s)        (%)
-       Time:        0.066        0.008      794.4
+       Time:        0.040        0.005      783.6
                  (ns/day)    (hour/ns)
-Performance:       20.764        1.156
-Finished mdrun on rank 0 Mon Nov 25 17:34:33 2019
+Performance:       34.070        0.704
+Finished mdrun on rank 0 Thu Jan 16 16:50:48 2020
 

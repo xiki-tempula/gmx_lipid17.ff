@@ -14,7 +14,7 @@
 ; The whole project and more detailed explanation is accessible from
 ; https://github.com/xiki-tempula/gmx_lipid17.ff
 ;
-; To cite this port, please refer to DOI: 10.5281/zenodo.3562014
+; To cite this port, please refer to DOI: 10.5281/zenodo.3610470
 ;
 ; When use in conjunction with amber protein force field, the following
 ; section needed to be commented out.

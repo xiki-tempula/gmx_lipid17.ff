@@ -54,20 +54,8 @@ if __name__ == '__main__':
             rtpWriter(residue, f)
 
         with open('../../residuetypes.dat', 'w') as f:
-            f.write('')
-        with open('../../lipid17.ff/lipids.r2b', 'w') as f:
             for residue in residuetypes:
-                with open('../../residuetypes.dat', 'a+') as f_residuetypes:
-                    f_residuetypes.write(residue + ' Protein\n')
-                try:
-                    with open('../../residuetypes.dat', 'a+') as f_residuetypes:
-                        f_residuetypes.write(residuetypes[residue]['start'] + ' Protein\n')
-                        f_residuetypes.write(residuetypes[residue]['end'] + ' Protein\n')
-                    f.write('{} {} {} {} - \n'.format(residue, residue, residuetypes[residue]['start'],
-                                                      residuetypes[residue]['end']))
-                except TypeError:
-                    pass
-
+                f.write('{} Protein\n'.format(residue))
         # change the type of chol
         with open('../../residuetypes.dat', 'r') as f:
             txt = f.read()

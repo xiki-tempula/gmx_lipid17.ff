@@ -40,6 +40,7 @@ head_group_list = ['PC', 'PE', 'PS', 'PGR', 'PH-']
 with open('energy_difference.log', 'w') as f:
     f.write('Energy difference:\n')
 energy_difference_list = []
+Parmed_energy_difference_list = []
 for acyl_1 in acyl_list:
     for head_group in head_group_list:
         for acyl_2 in acyl_list:
@@ -50,6 +51,15 @@ for acyl_1 in acyl_list:
                  shell=True)
             call('{gmx} mdrun -deffnm {lipid}'.format(gmx=gmx, lipid=lipid), shell=True)
             gmx_energy = gromacs_energy('{lipid}.log'.format(lipid=lipid))
+
+            call('{gmx} grompp -f gromacs.mdp -c ../generation/{lipid}.pdb -o Parmed_{lipid}.tpr -p ../generation/{lipid}.top'.format(gmx=gmx,
+                                                                                                           lipid=lipid),
+                 shell=True)
+            call('{gmx} mdrun -deffnm Parmed_{lipid}'.format(gmx=gmx, lipid=lipid), shell=True)
+            Parmed_energy = gromacs_energy('Parmed_{lipid}.log'.format(lipid=lipid))
+            Parmed_energy_difference = np.abs(Parmed_energy[0]-gmx_energy[0])
+            Parmed_energy_difference_list.append(Parmed_energy_difference)
+
             call('{sander} -O -i amber.in -p ../generation/{lipid}.prmtop -c ../generation/{lipid}.inpcrd -inf {lipid}.mdinfo'.format(sander=sander,
                                                                                                            lipid=lipid),
                  shell=True)
@@ -58,7 +68,7 @@ for acyl_1 in acyl_list:
             energy_difference = np.abs(np.array(amb_energy) - np.array(gmx_energy))
             energy_difference_list.append(energy_difference)
             with open('energy_difference.log', 'a+') as f:
-                f.write('{}: Potential {:.2f}; Bond {:.2f}; Angle {:.2f}; Dihedral {:.2f}\n'.format(lipid, *energy_difference))
+                f.write('{}: Parmed: Potential {:.2f}; Amber: Potential {:.2f}; Bond {:.2f}; Angle {:.2f}; Dihedral {:.2f}\n'.format(lipid, Parmed_energy_difference, *energy_difference))
 
 lipid = 'CHL'
 
@@ -66,6 +76,17 @@ call('{gmx} pdb2gmx -f ../../gro/{lipid}.gro -o temp.gro -ff lipid17'.format(gmx
 call('{gmx} grompp -f gromacs.mdp -c ../generation/{lipid}.pdb -o {lipid}.tpr'.format(gmx=gmx, lipid=lipid), shell=True)
 call('{gmx} mdrun -deffnm {lipid}'.format(gmx=gmx, lipid=lipid), shell=True)
 gmx_energy = gromacs_energy('{lipid}.log'.format(lipid=lipid))
+
+call(
+    '{gmx} grompp -f gromacs.mdp -c ../generation/{lipid}.pdb -o Parmed_{lipid}.tpr -p ../generation/{lipid}.top'.format(
+        gmx=gmx,
+        lipid=lipid),
+    shell=True)
+call('{gmx} mdrun -deffnm Parmed_{lipid}'.format(gmx=gmx, lipid=lipid), shell=True)
+Parmed_energy = gromacs_energy('Parmed_{lipid}.log'.format(lipid=lipid))
+Parmed_energy_difference = np.abs(Parmed_energy[0] - gmx_energy[0])
+Parmed_energy_difference_list.append(Parmed_energy_difference)
+
 call(
     '{sander} -O -i amber.in -p ../generation/{lipid}.prmtop -c ../generation/{lipid}.inpcrd -inf {lipid}.mdinfo'.format(
         sander=sander,
@@ -76,8 +97,8 @@ amber_energy = amber_energy('{lipid}.mdinfo'.format(lipid=lipid))
 energy_difference = np.abs(np.array(amber_energy) - np.array(gmx_energy))
 energy_difference_list.append(energy_difference)
 with open('energy_difference.log', 'a+') as f:
-    f.write('{}: Potential {:.2f}; Bond {:.2f}; Angle {:.2f}; Dihedral {:.2f}\n'.format(lipid, *energy_difference))
+    f.write('{}: Parmed: Potential {:.2f}; Amber: Potential {:.2f}; Bond {:.2f}; Angle {:.2f}; Dihedral {:.2f}\n'.format(lipid, Parmed_energy_difference, *energy_difference))
 
 max_energy_difference_list = np.max(energy_difference_list, axis=0)
 with open('energy_difference.log', 'a+') as f:
-    f.write('Max: Potential {:.2f}; Bond {:.2f}; Angle {:.2f}; Dihedral {:.2f}\n'.format(*max_energy_difference_list))
+    f.write('Max: Parmed: Potential {:.2f}; Amber: Potential {:.2f}; Bond {:.2f}; Angle {:.2f}; Dihedral {:.2f}\n'.format(np.max(Parmed_energy_difference), *max_energy_difference_list))

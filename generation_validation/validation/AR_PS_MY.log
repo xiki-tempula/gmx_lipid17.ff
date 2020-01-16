@@ -30,7 +30,7 @@ GROMACS:      gmx mdrun, version 2019.4
 Executable:   /usr/local/gromacs/2019.4/bin/gmx
 Data prefix:  /usr/local/gromacs/2019.4
 Working dir:  /Users/grte2001/GitHub/gmx_lipid17.ff/generation_validation/validation
-Process ID:   26832
+Process ID:   42952
 Command line:
   gmx mdrun -deffnm AR_PS_MY
 
@@ -138,7 +138,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 1
    bd-fric                        = 0
-   ld-seed                        = -1874878165
+   ld-seed                        = 1368596029
    emtol                          = 10
    emstep                         = 0.01
    niter                          = 20
@@ -315,7 +315,7 @@ We have the following groups for center of mass motion removal:
 There are: 121 Atoms
 Initial temperature: 0 K
 
-Started mdrun on rank 0 Mon Nov 25 17:35:02 2019
+Started mdrun on rank 0 Thu Jan 16 16:52:05 2020
 
            Step           Time
               0        0.00000
@@ -385,37 +385,34 @@ On 1 MPI rank, each using 8 OpenMP threads
  Computing:          Num   Num      Call    Wall time         Giga-Cycles
                      Ranks Threads  Count      (s)         total sum    %
 -----------------------------------------------------------------------------
- Neighbor search        1    8          1       0.001          0.023  12.6
- Launch GPU ops.        1    8          1       0.004          0.118  65.7
- Force                  1    8          1       0.000          0.004   2.2
- Wait GPU NB local      1    8          1       0.000          0.009   4.8
- NB X/F buffer ops.     1    8          1       0.000          0.001   0.7
- Update                 1    8          4       0.000          0.004   2.4
- Rest                                           0.001          0.021  11.6
+ Neighbor search        1    8          1       0.000          0.012   8.5
+ Launch GPU ops.        1    8          1       0.003          0.110  74.9
+ Force                  1    8          1       0.000          0.002   1.5
+ Wait GPU NB local      1    8          1       0.000          0.005   3.4
+ NB X/F buffer ops.     1    8          1       0.000          0.000   0.2
+ Update                 1    8          4       0.000          0.001   0.4
+ Rest                                           0.000          0.016  11.3
 -----------------------------------------------------------------------------
- Total                                          0.005          0.180 100.0
+ Total                                          0.004          0.146 100.0
 -----------------------------------------------------------------------------
 
  GPU timings
 -----------------------------------------------------------------------------
  Computing:                         Count  Wall t (s)      ms/step       %
 -----------------------------------------------------------------------------
- Pair list H2D                          1       0.000        0.029    16.9
- X / q H2D                              1       0.000        0.005     2.9
- Nonbonded F+ene+prune k.               1       0.000        0.122    70.4
- F D2H                                  1       0.000        0.017     9.9
+ Pair list H2D                          1       0.000        0.038    17.9
+ X / q H2D                              1       0.000        0.006     2.8
+ Nonbonded F+ene+prune k.               1       0.000        0.152    70.8
+ F D2H                                  1       0.000        0.018     8.6
 -----------------------------------------------------------------------------
- Total                                          0.000        0.173   100.0
+ Total                                          0.000        0.214   100.0
 -----------------------------------------------------------------------------
 
-Average per-step force GPU/CPU evaluation time ratio: 0.173 ms/0.118 ms = 1.459
-
-NOTE: 13 % of the run time was spent in pair search,
-      you might want to increase nstlist (this has no effect on accuracy)
+Average per-step force GPU/CPU evaluation time ratio: 0.214 ms/0.063 ms = 3.382
 
                Core t (s)   Wall t (s)        (%)
-       Time:        0.042        0.005      791.3
+       Time:        0.034        0.004      780.8
                  (ns/day)    (hour/ns)
-Performance:       32.298        0.743
-Finished mdrun on rank 0 Mon Nov 25 17:35:02 2019
+Performance:       39.614        0.606
+Finished mdrun on rank 0 Thu Jan 16 16:52:05 2020
 

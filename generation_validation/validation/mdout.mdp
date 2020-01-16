@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
-;	By user: grte2001 (13439)
+;	By user: root (13439)
 ;	On host: mc73235.bioch.ox.ac.uk
-;	At date: Mon Nov 25 17:35:58 2019
+;	At date: Thu Jan 16 16:54:34 2020
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2019.4 (-:
@@ -11,7 +11,7 @@
 ;	Data prefix:  /usr/local/gromacs/2019.4
 ;	Working dir:  /Users/grte2001/GitHub/gmx_lipid17.ff/generation_validation/validation
 ;	Command line:
-;	  gmx grompp -f gromacs.mdp -c ../generation/CHL.pdb -o CHL.tpr
+;	  gmx grompp -f gromacs.mdp -c ../generation/CHL.pdb -o Parmed_CHL.tpr -p ../generation/CHL.top
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.

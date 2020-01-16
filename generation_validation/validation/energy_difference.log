@@ -1,248 +1,248 @@
 Energy difference:
-LAL_PC_LAL: Potential 0.02; Bond 0.06; Angle 0.05; Dihedral 0.00
-LAL_PC_MY: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.01
-LAL_PC_PA: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.00
-LAL_PC_OL: Potential 0.00; Bond 0.01; Angle 0.00; Dihedral 0.00
-LAL_PC_ST: Potential 0.05; Bond 0.02; Angle 0.03; Dihedral 0.00
-LAL_PC_AR: Potential 0.08; Bond 0.02; Angle 0.01; Dihedral 0.01
-LAL_PC_DHA: Potential 0.00; Bond 0.01; Angle 0.00; Dihedral 0.00
-LAL_PE_LAL: Potential 0.02; Bond 0.02; Angle 0.03; Dihedral 0.00
-LAL_PE_MY: Potential 0.06; Bond 0.02; Angle 0.00; Dihedral 0.00
-LAL_PE_PA: Potential 0.05; Bond 0.04; Angle 0.03; Dihedral 0.00
-LAL_PE_OL: Potential 0.04; Bond 0.03; Angle 0.01; Dihedral 0.00
-LAL_PE_ST: Potential 0.05; Bond 0.05; Angle 0.02; Dihedral 0.00
-LAL_PE_AR: Potential 0.04; Bond 0.00; Angle 0.00; Dihedral 0.00
-LAL_PE_DHA: Potential 0.01; Bond 0.03; Angle 0.01; Dihedral 0.00
-LAL_PS_LAL: Potential 0.11; Bond 0.00; Angle 0.04; Dihedral 0.00
-LAL_PS_MY: Potential 0.11; Bond 0.02; Angle 0.02; Dihedral 0.00
-LAL_PS_PA: Potential 0.07; Bond 0.01; Angle 0.01; Dihedral 0.00
-LAL_PS_OL: Potential 0.01; Bond 0.00; Angle 0.02; Dihedral 0.00
-LAL_PS_ST: Potential 0.02; Bond 0.01; Angle 0.01; Dihedral 0.00
-LAL_PS_AR: Potential 0.01; Bond 0.03; Angle 0.01; Dihedral 0.00
-LAL_PS_DHA: Potential 0.09; Bond 0.06; Angle 0.02; Dihedral 0.01
-LAL_PGR_LAL: Potential 0.05; Bond 0.05; Angle 0.04; Dihedral 0.00
-LAL_PGR_MY: Potential 0.07; Bond 0.01; Angle 0.01; Dihedral 0.00
-LAL_PGR_PA: Potential 0.16; Bond 0.06; Angle 0.00; Dihedral 0.00
-LAL_PGR_OL: Potential 0.03; Bond 0.02; Angle 0.01; Dihedral 0.00
-LAL_PGR_ST: Potential 0.04; Bond 0.04; Angle 0.01; Dihedral 0.00
-LAL_PGR_AR: Potential 0.06; Bond 0.09; Angle 0.04; Dihedral 0.00
-LAL_PGR_DHA: Potential 0.05; Bond 0.04; Angle 0.00; Dihedral 0.00
-LAL_PH-_LAL: Potential 0.05; Bond 0.01; Angle 0.02; Dihedral 0.00
-LAL_PH-_MY: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.00
-LAL_PH-_PA: Potential 0.01; Bond 0.04; Angle 0.01; Dihedral 0.00
-LAL_PH-_OL: Potential 0.05; Bond 0.06; Angle 0.01; Dihedral 0.00
-LAL_PH-_ST: Potential 0.02; Bond 0.01; Angle 0.00; Dihedral 0.00
-LAL_PH-_AR: Potential 0.13; Bond 0.07; Angle 0.00; Dihedral 0.01
-LAL_PH-_DHA: Potential 0.05; Bond 0.06; Angle 0.00; Dihedral 0.00
-MY_PC_LAL: Potential 0.01; Bond 0.05; Angle 0.01; Dihedral 0.00
-MY_PC_MY: Potential 0.00; Bond 0.02; Angle 0.01; Dihedral 0.00
-MY_PC_PA: Potential 0.18; Bond 0.05; Angle 0.01; Dihedral 0.01
-MY_PC_OL: Potential 0.00; Bond 0.02; Angle 0.01; Dihedral 0.01
-MY_PC_ST: Potential 0.09; Bond 0.05; Angle 0.03; Dihedral 0.00
-MY_PC_AR: Potential 0.07; Bond 0.02; Angle 0.01; Dihedral 0.00
-MY_PC_DHA: Potential 0.00; Bond 0.01; Angle 0.01; Dihedral 0.01
-MY_PE_LAL: Potential 0.08; Bond 0.04; Angle 0.04; Dihedral 0.00
-MY_PE_MY: Potential 0.02; Bond 0.04; Angle 0.02; Dihedral 0.00
-MY_PE_PA: Potential 0.18; Bond 0.00; Angle 0.02; Dihedral 0.00
-MY_PE_OL: Potential 0.05; Bond 0.05; Angle 0.00; Dihedral 0.00
-MY_PE_ST: Potential 0.02; Bond 0.02; Angle 0.01; Dihedral 0.00
-MY_PE_AR: Potential 0.01; Bond 0.04; Angle 0.03; Dihedral 0.00
-MY_PE_DHA: Potential 0.08; Bond 0.08; Angle 0.03; Dihedral 0.00
-MY_PS_LAL: Potential 0.05; Bond 0.06; Angle 0.00; Dihedral 0.00
-MY_PS_MY: Potential 0.08; Bond 0.07; Angle 0.02; Dihedral 0.00
-MY_PS_PA: Potential 0.13; Bond 0.01; Angle 0.00; Dihedral 0.00
-MY_PS_OL: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.00
-MY_PS_ST: Potential 0.03; Bond 0.01; Angle 0.01; Dihedral 0.00
-MY_PS_AR: Potential 0.01; Bond 0.05; Angle 0.01; Dihedral 0.00
-MY_PS_DHA: Potential 0.06; Bond 0.01; Angle 0.04; Dihedral 0.01
-MY_PGR_LAL: Potential 0.11; Bond 0.05; Angle 0.01; Dihedral 0.00
-MY_PGR_MY: Potential 0.05; Bond 0.02; Angle 0.00; Dihedral 0.00
-MY_PGR_PA: Potential 0.09; Bond 0.02; Angle 0.01; Dihedral 0.00
-MY_PGR_OL: Potential 0.02; Bond 0.02; Angle 0.01; Dihedral 0.00
-MY_PGR_ST: Potential 0.04; Bond 0.02; Angle 0.00; Dihedral 0.00
-MY_PGR_AR: Potential 0.06; Bond 0.03; Angle 0.03; Dihedral 0.00
-MY_PGR_DHA: Potential 0.08; Bond 0.03; Angle 0.02; Dihedral 0.00
-MY_PH-_LAL: Potential 0.01; Bond 0.02; Angle 0.00; Dihedral 0.00
-MY_PH-_MY: Potential 0.06; Bond 0.08; Angle 0.00; Dihedral 0.00
-MY_PH-_PA: Potential 0.01; Bond 0.07; Angle 0.00; Dihedral 0.00
-MY_PH-_OL: Potential 0.01; Bond 0.01; Angle 0.00; Dihedral 0.00
-MY_PH-_ST: Potential 0.03; Bond 0.03; Angle 0.01; Dihedral 0.00
-MY_PH-_AR: Potential 0.08; Bond 0.02; Angle 0.01; Dihedral 0.00
-MY_PH-_DHA: Potential 0.02; Bond 0.00; Angle 0.00; Dihedral 0.00
-PA_PC_LAL: Potential 0.02; Bond 0.03; Angle 0.02; Dihedral 0.01
-PA_PC_MY: Potential 0.00; Bond 0.00; Angle 0.00; Dihedral 0.00
-PA_PC_PA: Potential 0.26; Bond 0.03; Angle 0.01; Dihedral 0.00
-PA_PC_OL: Potential 0.05; Bond 0.02; Angle 0.03; Dihedral 0.00
-PA_PC_ST: Potential 0.01; Bond 0.04; Angle 0.01; Dihedral 0.00
-PA_PC_AR: Potential 0.10; Bond 0.01; Angle 0.01; Dihedral 0.01
-PA_PC_DHA: Potential 0.06; Bond 0.05; Angle 0.00; Dihedral 0.01
-PA_PE_LAL: Potential 0.01; Bond 0.03; Angle 0.02; Dihedral 0.00
-PA_PE_MY: Potential 0.05; Bond 0.02; Angle 0.00; Dihedral 0.00
-PA_PE_PA: Potential 0.20; Bond 0.03; Angle 0.05; Dihedral 0.00
-PA_PE_OL: Potential 0.00; Bond 0.06; Angle 0.03; Dihedral 0.00
-PA_PE_ST: Potential 0.00; Bond 0.01; Angle 0.01; Dihedral 0.00
-PA_PE_AR: Potential 0.06; Bond 0.02; Angle 0.02; Dihedral 0.01
-PA_PE_DHA: Potential 0.02; Bond 0.04; Angle 0.02; Dihedral 0.00
-PA_PS_LAL: Potential 0.04; Bond 0.01; Angle 0.01; Dihedral 0.00
-PA_PS_MY: Potential 0.01; Bond 0.02; Angle 0.01; Dihedral 0.00
-PA_PS_PA: Potential 0.05; Bond 0.02; Angle 0.02; Dihedral 0.00
-PA_PS_OL: Potential 0.02; Bond 0.05; Angle 0.04; Dihedral 0.00
-PA_PS_ST: Potential 0.03; Bond 0.04; Angle 0.02; Dihedral 0.00
-PA_PS_AR: Potential 0.10; Bond 0.06; Angle 0.03; Dihedral 0.01
-PA_PS_DHA: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.00
-PA_PGR_LAL: Potential 0.07; Bond 0.08; Angle 0.01; Dihedral 0.00
-PA_PGR_MY: Potential 0.06; Bond 0.04; Angle 0.03; Dihedral 0.00
-PA_PGR_PA: Potential 0.02; Bond 0.04; Angle 0.02; Dihedral 0.00
-PA_PGR_OL: Potential 0.08; Bond 0.06; Angle 0.02; Dihedral 0.00
-PA_PGR_ST: Potential 0.07; Bond 0.04; Angle 0.02; Dihedral 0.00
-PA_PGR_AR: Potential 0.19; Bond 0.05; Angle 0.00; Dihedral 0.00
-PA_PGR_DHA: Potential 0.07; Bond 0.04; Angle 0.04; Dihedral 0.00
-PA_PH-_LAL: Potential 0.06; Bond 0.05; Angle 0.02; Dihedral 0.00
-PA_PH-_MY: Potential 0.03; Bond 0.01; Angle 0.02; Dihedral 0.00
-PA_PH-_PA: Potential 0.07; Bond 0.00; Angle 0.00; Dihedral 0.00
-PA_PH-_OL: Potential 0.01; Bond 0.01; Angle 0.02; Dihedral 0.00
-PA_PH-_ST: Potential 0.01; Bond 0.00; Angle 0.02; Dihedral 0.00
-PA_PH-_AR: Potential 0.11; Bond 0.05; Angle 0.00; Dihedral 0.01
-PA_PH-_DHA: Potential 0.04; Bond 0.03; Angle 0.00; Dihedral 0.00
-OL_PC_LAL: Potential 6021.91; Bond 0.01; Angle 0.06; Dihedral 1.49
-OL_PC_MY: Potential 6020.65; Bond 0.01; Angle 0.04; Dihedral 1.50
-OL_PC_PA: Potential 6022.03; Bond 0.00; Angle 0.02; Dihedral 1.49
-OL_PC_OL: Potential 6020.68; Bond 0.00; Angle 0.04; Dihedral 1.50
-OL_PC_ST: Potential 6020.70; Bond 0.02; Angle 0.07; Dihedral 1.50
-OL_PC_AR: Potential 6020.70; Bond 0.02; Angle 0.04; Dihedral 1.51
-OL_PC_DHA: Potential 6068.10; Bond 0.01; Angle 0.10; Dihedral 1.50
-OL_PE_LAL: Potential 6069.55; Bond 0.00; Angle 0.03; Dihedral 1.50
-OL_PE_MY: Potential 6068.18; Bond 0.02; Angle 0.03; Dihedral 1.50
-OL_PE_PA: Potential 6068.13; Bond 0.05; Angle 0.05; Dihedral 1.50
-OL_PE_OL: Potential 6068.28; Bond 0.05; Angle 0.07; Dihedral 1.49
-OL_PE_ST: Potential 6068.26; Bond 0.01; Angle 0.02; Dihedral 1.50
-OL_PE_AR: Potential 6068.33; Bond 0.04; Angle 0.06; Dihedral 1.50
-OL_PE_DHA: Potential 6020.73; Bond 0.03; Angle 0.08; Dihedral 1.50
-OL_PS_LAL: Potential 6021.00; Bond 0.06; Angle 0.03; Dihedral 1.50
-OL_PS_MY: Potential 6020.98; Bond 0.03; Angle 0.09; Dihedral 1.50
-OL_PS_PA: Potential 6021.03; Bond 0.04; Angle 0.06; Dihedral 1.50
-OL_PS_OL: Potential 6022.31; Bond 0.01; Angle 0.06; Dihedral 1.50
-OL_PS_ST: Potential 6020.95; Bond 0.05; Angle 0.08; Dihedral 1.50
-OL_PS_AR: Potential 6021.17; Bond 0.01; Angle 0.08; Dihedral 1.50
-OL_PS_DHA: Potential 6020.99; Bond 0.02; Angle 0.05; Dihedral 1.50
-OL_PGR_LAL: Potential 6069.41; Bond 0.08; Angle 0.08; Dihedral 1.50
-OL_PGR_MY: Potential 6068.20; Bond 0.00; Angle 0.07; Dihedral 1.50
-OL_PGR_PA: Potential 6020.97; Bond 0.07; Angle 0.06; Dihedral 1.49
-OL_PGR_OL: Potential 6068.16; Bond 0.07; Angle 0.06; Dihedral 1.50
-OL_PGR_ST: Potential 6068.20; Bond 0.05; Angle 0.06; Dihedral 1.50
-OL_PGR_AR: Potential 6061.19; Bond 0.02; Angle 0.09; Dihedral 1.50
-OL_PGR_DHA: Potential 6068.17; Bond 0.01; Angle 0.07; Dihedral 1.51
-OL_PH-_LAL: Potential 6068.57; Bond 0.08; Angle 0.08; Dihedral 1.50
-OL_PH-_MY: Potential 6068.66; Bond 0.00; Angle 0.06; Dihedral 1.50
-OL_PH-_PA: Potential 6021.09; Bond 0.01; Angle 0.08; Dihedral 1.50
-OL_PH-_OL: Potential 6021.16; Bond 0.02; Angle 0.08; Dihedral 1.50
-OL_PH-_ST: Potential 6068.62; Bond 0.03; Angle 0.06; Dihedral 1.50
-OL_PH-_AR: Potential 6068.53; Bond 0.00; Angle 0.06; Dihedral 1.51
-OL_PH-_DHA: Potential 6069.99; Bond 0.02; Angle 0.07; Dihedral 1.51
-ST_PC_LAL: Potential 0.04; Bond 0.00; Angle 0.04; Dihedral 0.00
-ST_PC_MY: Potential 0.01; Bond 0.00; Angle 0.00; Dihedral 0.00
-ST_PC_PA: Potential 0.19; Bond 0.02; Angle 0.01; Dihedral 0.00
-ST_PC_OL: Potential 0.04; Bond 0.02; Angle 0.02; Dihedral 0.00
-ST_PC_ST: Potential 0.09; Bond 0.05; Angle 0.05; Dihedral 0.00
-ST_PC_AR: Potential 0.02; Bond 0.00; Angle 0.02; Dihedral 0.01
-ST_PC_DHA: Potential 0.02; Bond 0.00; Angle 0.01; Dihedral 0.01
-ST_PE_LAL: Potential 0.00; Bond 0.03; Angle 0.02; Dihedral 0.00
-ST_PE_MY: Potential 0.05; Bond 0.03; Angle 0.01; Dihedral 0.00
-ST_PE_PA: Potential 0.14; Bond 0.03; Angle 0.00; Dihedral 0.00
-ST_PE_OL: Potential 0.06; Bond 0.00; Angle 0.01; Dihedral 0.00
-ST_PE_ST: Potential 0.08; Bond 0.04; Angle 0.01; Dihedral 0.00
-ST_PE_AR: Potential 0.13; Bond 0.02; Angle 0.01; Dihedral 0.00
-ST_PE_DHA: Potential 0.01; Bond 0.02; Angle 0.00; Dihedral 0.00
-ST_PS_LAL: Potential 0.00; Bond 0.08; Angle 0.06; Dihedral 0.00
-ST_PS_MY: Potential 0.07; Bond 0.02; Angle 0.07; Dihedral 0.00
-ST_PS_PA: Potential 0.16; Bond 0.00; Angle 0.02; Dihedral 0.00
-ST_PS_OL: Potential 0.01; Bond 0.00; Angle 0.00; Dihedral 0.00
-ST_PS_ST: Potential 0.02; Bond 0.03; Angle 0.02; Dihedral 0.00
-ST_PS_AR: Potential 0.15; Bond 0.04; Angle 0.00; Dihedral 0.00
-ST_PS_DHA: Potential 0.03; Bond 0.01; Angle 0.03; Dihedral 0.00
-ST_PGR_LAL: Potential 0.05; Bond 0.04; Angle 0.01; Dihedral 0.00
-ST_PGR_MY: Potential 0.01; Bond 0.02; Angle 0.02; Dihedral 0.00
-ST_PGR_PA: Potential 0.00; Bond 0.03; Angle 0.00; Dihedral 0.00
-ST_PGR_OL: Potential 0.01; Bond 0.00; Angle 0.00; Dihedral 0.00
-ST_PGR_ST: Potential 0.04; Bond 0.01; Angle 0.05; Dihedral 0.00
-ST_PGR_AR: Potential 0.06; Bond 0.04; Angle 0.01; Dihedral 0.00
-ST_PGR_DHA: Potential 0.07; Bond 0.04; Angle 0.04; Dihedral 0.00
-ST_PH-_LAL: Potential 0.07; Bond 0.05; Angle 0.04; Dihedral 0.00
-ST_PH-_MY: Potential 0.01; Bond 0.01; Angle 0.02; Dihedral 0.00
-ST_PH-_PA: Potential 0.20; Bond 0.00; Angle 0.00; Dihedral 0.00
-ST_PH-_OL: Potential 0.03; Bond 0.03; Angle 0.02; Dihedral 0.00
-ST_PH-_ST: Potential 0.04; Bond 0.01; Angle 0.03; Dihedral 0.00
-ST_PH-_AR: Potential 0.07; Bond 0.04; Angle 0.01; Dihedral 0.00
-ST_PH-_DHA: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.00
-AR_PC_LAL: Potential 0.03; Bond 0.03; Angle 0.03; Dihedral 0.00
-AR_PC_MY: Potential 0.07; Bond 0.02; Angle 0.03; Dihedral 0.00
-AR_PC_PA: Potential 0.04; Bond 0.02; Angle 0.00; Dihedral 0.00
-AR_PC_OL: Potential 0.03; Bond 0.00; Angle 0.01; Dihedral 0.00
-AR_PC_ST: Potential 0.01; Bond 0.03; Angle 0.03; Dihedral 0.00
-AR_PC_AR: Potential 0.24; Bond 0.02; Angle 0.01; Dihedral 0.01
-AR_PC_DHA: Potential 0.01; Bond 0.02; Angle 0.02; Dihedral 0.00
-AR_PE_LAL: Potential 0.05; Bond 0.04; Angle 0.01; Dihedral 0.00
-AR_PE_MY: Potential 0.04; Bond 0.04; Angle 0.01; Dihedral 0.00
-AR_PE_PA: Potential 0.08; Bond 0.01; Angle 0.02; Dihedral 0.00
-AR_PE_OL: Potential 0.10; Bond 0.07; Angle 0.03; Dihedral 0.00
-AR_PE_ST: Potential 0.10; Bond 0.04; Angle 0.03; Dihedral 0.00
-AR_PE_AR: Potential 0.07; Bond 0.07; Angle 0.04; Dihedral 0.00
-AR_PE_DHA: Potential 0.03; Bond 0.01; Angle 0.04; Dihedral 0.00
-AR_PS_LAL: Potential 5106.73; Bond 0.07; Angle 0.01; Dihedral 0.00
-AR_PS_MY: Potential 5105.66; Bond 0.02; Angle 0.03; Dihedral 0.00
-AR_PS_PA: Potential 0.04; Bond 0.01; Angle 0.03; Dihedral 0.00
-AR_PS_OL: Potential 0.02; Bond 0.01; Angle 0.01; Dihedral 0.00
-AR_PS_ST: Potential 0.06; Bond 0.02; Angle 0.00; Dihedral 0.00
-AR_PS_AR: Potential 0.04; Bond 0.02; Angle 0.01; Dihedral 0.00
-AR_PS_DHA: Potential 0.04; Bond 0.04; Angle 0.00; Dihedral 0.01
-AR_PGR_LAL: Potential 255.95; Bond 0.08; Angle 0.04; Dihedral 0.00
-AR_PGR_MY: Potential 260.92; Bond 0.01; Angle 0.00; Dihedral 0.00
-AR_PGR_PA: Potential 0.08; Bond 0.00; Angle 0.01; Dihedral 0.00
-AR_PGR_OL: Potential 0.06; Bond 0.05; Angle 0.02; Dihedral 0.00
-AR_PGR_ST: Potential 0.02; Bond 0.01; Angle 0.01; Dihedral 0.00
-AR_PGR_AR: Potential 0.04; Bond 0.05; Angle 0.01; Dihedral 0.00
-AR_PGR_DHA: Potential 0.01; Bond 0.02; Angle 0.01; Dihedral 0.00
-AR_PH-_LAL: Potential 62.03; Bond 0.03; Angle 0.01; Dihedral 0.00
-AR_PH-_MY: Potential 61.98; Bond 0.03; Angle 0.01; Dihedral 0.00
-AR_PH-_PA: Potential 0.05; Bond 0.04; Angle 0.01; Dihedral 0.00
-AR_PH-_OL: Potential 0.02; Bond 0.02; Angle 0.00; Dihedral 0.00
-AR_PH-_ST: Potential 0.01; Bond 0.04; Angle 0.02; Dihedral 0.00
-AR_PH-_AR: Potential 0.08; Bond 0.04; Angle 0.01; Dihedral 0.01
-AR_PH-_DHA: Potential 0.02; Bond 0.01; Angle 0.01; Dihedral 0.01
-DHA_PC_LAL: Potential 0.04; Bond 0.01; Angle 0.01; Dihedral 0.00
-DHA_PC_MY: Potential 0.04; Bond 0.01; Angle 0.00; Dihedral 0.00
-DHA_PC_PA: Potential 0.03; Bond 0.01; Angle 0.01; Dihedral 0.00
-DHA_PC_OL: Potential 0.04; Bond 0.03; Angle 0.03; Dihedral 0.00
-DHA_PC_ST: Potential 0.02; Bond 0.00; Angle 0.02; Dihedral 0.00
-DHA_PC_AR: Potential 0.13; Bond 0.00; Angle 0.01; Dihedral 0.00
-DHA_PC_DHA: Potential 0.04; Bond 0.03; Angle 0.02; Dihedral 0.00
-DHA_PE_LAL: Potential 0.09; Bond 0.09; Angle 0.00; Dihedral 0.00
-DHA_PE_MY: Potential 0.08; Bond 0.09; Angle 0.02; Dihedral 0.01
-DHA_PE_PA: Potential 0.00; Bond 0.08; Angle 0.01; Dihedral 0.00
-DHA_PE_OL: Potential 0.04; Bond 0.00; Angle 0.00; Dihedral 0.00
-DHA_PE_ST: Potential 0.04; Bond 0.06; Angle 0.02; Dihedral 0.00
-DHA_PE_AR: Potential 0.07; Bond 0.06; Angle 0.02; Dihedral 0.01
-DHA_PE_DHA: Potential 0.01; Bond 0.02; Angle 0.01; Dihedral 0.00
-DHA_PS_LAL: Potential 0.06; Bond 0.03; Angle 0.02; Dihedral 0.00
-DHA_PS_MY: Potential 0.10; Bond 0.04; Angle 0.04; Dihedral 0.00
-DHA_PS_PA: Potential 0.16; Bond 0.00; Angle 0.01; Dihedral 0.00
-DHA_PS_OL: Potential 0.02; Bond 0.02; Angle 0.03; Dihedral 0.00
-DHA_PS_ST: Potential 0.04; Bond 0.02; Angle 0.01; Dihedral 0.01
-DHA_PS_AR: Potential 0.08; Bond 0.07; Angle 0.01; Dihedral 0.01
-DHA_PS_DHA: Potential 0.07; Bond 0.07; Angle 0.00; Dihedral 0.01
-DHA_PGR_LAL: Potential 0.06; Bond 0.03; Angle 0.01; Dihedral 0.00
-DHA_PGR_MY: Potential 0.04; Bond 0.03; Angle 0.01; Dihedral 0.00
-DHA_PGR_PA: Potential 0.07; Bond 0.01; Angle 0.02; Dihedral 0.00
-DHA_PGR_OL: Potential 0.00; Bond 0.03; Angle 0.01; Dihedral 0.01
-DHA_PGR_ST: Potential 0.01; Bond 0.00; Angle 0.01; Dihedral 0.00
-DHA_PGR_AR: Potential 0.07; Bond 0.03; Angle 0.04; Dihedral 0.01
-DHA_PGR_DHA: Potential 0.02; Bond 0.02; Angle 0.01; Dihedral 0.01
-DHA_PH-_LAL: Potential 0.04; Bond 0.09; Angle 0.01; Dihedral 0.01
-DHA_PH-_MY: Potential 0.02; Bond 0.03; Angle 0.02; Dihedral 0.00
-DHA_PH-_PA: Potential 0.04; Bond 0.00; Angle 0.01; Dihedral 0.00
-DHA_PH-_OL: Potential 0.02; Bond 0.01; Angle 0.03; Dihedral 0.00
-DHA_PH-_ST: Potential 0.03; Bond 0.02; Angle 0.01; Dihedral 0.00
-DHA_PH-_AR: Potential 0.04; Bond 0.03; Angle 0.01; Dihedral 0.01
-DHA_PH-_DHA: Potential 0.00; Bond 0.00; Angle 0.02; Dihedral 0.01
-CHL: Potential 0.03; Bond 0.00; Angle 0.01; Dihedral 0.00
-Max: Potential 6069.99; Bond 0.09; Angle 0.10; Dihedral 1.51
+LAL_PC_LAL: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.06; Angle 0.05; Dihedral 0.00
+LAL_PC_MY: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.01
+LAL_PC_PA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.00
+LAL_PC_OL: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.01; Angle 0.00; Dihedral 0.00
+LAL_PC_ST: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.02; Angle 0.03; Dihedral 0.00
+LAL_PC_AR: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.02; Angle 0.01; Dihedral 0.01
+LAL_PC_DHA: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.01; Angle 0.00; Dihedral 0.00
+LAL_PE_LAL: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.02; Angle 0.03; Dihedral 0.00
+LAL_PE_MY: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.02; Angle 0.00; Dihedral 0.00
+LAL_PE_PA: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.04; Angle 0.03; Dihedral 0.00
+LAL_PE_OL: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.03; Angle 0.01; Dihedral 0.00
+LAL_PE_ST: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.05; Angle 0.02; Dihedral 0.00
+LAL_PE_AR: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.00; Angle 0.00; Dihedral 0.00
+LAL_PE_DHA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.03; Angle 0.01; Dihedral 0.00
+LAL_PS_LAL: Parmed: Potential 0.00; Amber: Potential 0.11; Bond 0.00; Angle 0.04; Dihedral 0.00
+LAL_PS_MY: Parmed: Potential 0.00; Amber: Potential 0.11; Bond 0.02; Angle 0.02; Dihedral 0.00
+LAL_PS_PA: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.01; Angle 0.01; Dihedral 0.00
+LAL_PS_OL: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.00; Angle 0.02; Dihedral 0.00
+LAL_PS_ST: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.01; Angle 0.01; Dihedral 0.00
+LAL_PS_AR: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.03; Angle 0.01; Dihedral 0.00
+LAL_PS_DHA: Parmed: Potential 0.00; Amber: Potential 0.09; Bond 0.06; Angle 0.02; Dihedral 0.01
+LAL_PGR_LAL: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.05; Angle 0.04; Dihedral 0.00
+LAL_PGR_MY: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.01; Angle 0.01; Dihedral 0.00
+LAL_PGR_PA: Parmed: Potential 0.00; Amber: Potential 0.16; Bond 0.06; Angle 0.00; Dihedral 0.00
+LAL_PGR_OL: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.02; Angle 0.01; Dihedral 0.00
+LAL_PGR_ST: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.04; Angle 0.01; Dihedral 0.00
+LAL_PGR_AR: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.09; Angle 0.04; Dihedral 0.00
+LAL_PGR_DHA: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.04; Angle 0.00; Dihedral 0.00
+LAL_PH-_LAL: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.01; Angle 0.02; Dihedral 0.00
+LAL_PH-_MY: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.00
+LAL_PH-_PA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.04; Angle 0.01; Dihedral 0.00
+LAL_PH-_OL: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.06; Angle 0.01; Dihedral 0.00
+LAL_PH-_ST: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.01; Angle 0.00; Dihedral 0.00
+LAL_PH-_AR: Parmed: Potential 0.00; Amber: Potential 0.13; Bond 0.07; Angle 0.00; Dihedral 0.01
+LAL_PH-_DHA: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.06; Angle 0.00; Dihedral 0.00
+MY_PC_LAL: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.05; Angle 0.01; Dihedral 0.00
+MY_PC_MY: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.02; Angle 0.01; Dihedral 0.00
+MY_PC_PA: Parmed: Potential 0.00; Amber: Potential 0.18; Bond 0.05; Angle 0.01; Dihedral 0.01
+MY_PC_OL: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.02; Angle 0.01; Dihedral 0.01
+MY_PC_ST: Parmed: Potential 0.00; Amber: Potential 0.09; Bond 0.05; Angle 0.03; Dihedral 0.00
+MY_PC_AR: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.02; Angle 0.01; Dihedral 0.00
+MY_PC_DHA: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.01; Angle 0.01; Dihedral 0.01
+MY_PE_LAL: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.04; Angle 0.04; Dihedral 0.00
+MY_PE_MY: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.04; Angle 0.02; Dihedral 0.00
+MY_PE_PA: Parmed: Potential 0.00; Amber: Potential 0.18; Bond 0.00; Angle 0.02; Dihedral 0.00
+MY_PE_OL: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.05; Angle 0.00; Dihedral 0.00
+MY_PE_ST: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.02; Angle 0.01; Dihedral 0.00
+MY_PE_AR: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.04; Angle 0.03; Dihedral 0.00
+MY_PE_DHA: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.08; Angle 0.03; Dihedral 0.00
+MY_PS_LAL: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.06; Angle 0.00; Dihedral 0.00
+MY_PS_MY: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.07; Angle 0.02; Dihedral 0.00
+MY_PS_PA: Parmed: Potential 0.00; Amber: Potential 0.13; Bond 0.01; Angle 0.00; Dihedral 0.00
+MY_PS_OL: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.00
+MY_PS_ST: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.01; Angle 0.01; Dihedral 0.00
+MY_PS_AR: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.05; Angle 0.01; Dihedral 0.00
+MY_PS_DHA: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.01; Angle 0.04; Dihedral 0.01
+MY_PGR_LAL: Parmed: Potential 0.00; Amber: Potential 0.11; Bond 0.05; Angle 0.01; Dihedral 0.00
+MY_PGR_MY: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.02; Angle 0.00; Dihedral 0.00
+MY_PGR_PA: Parmed: Potential 0.00; Amber: Potential 0.09; Bond 0.02; Angle 0.01; Dihedral 0.00
+MY_PGR_OL: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.02; Angle 0.01; Dihedral 0.00
+MY_PGR_ST: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.02; Angle 0.00; Dihedral 0.00
+MY_PGR_AR: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.03; Angle 0.03; Dihedral 0.00
+MY_PGR_DHA: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.03; Angle 0.02; Dihedral 0.00
+MY_PH-_LAL: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.02; Angle 0.00; Dihedral 0.00
+MY_PH-_MY: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.08; Angle 0.00; Dihedral 0.00
+MY_PH-_PA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.07; Angle 0.00; Dihedral 0.00
+MY_PH-_OL: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.01; Angle 0.00; Dihedral 0.00
+MY_PH-_ST: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.03; Angle 0.01; Dihedral 0.00
+MY_PH-_AR: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.02; Angle 0.01; Dihedral 0.00
+MY_PH-_DHA: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.00; Angle 0.00; Dihedral 0.00
+PA_PC_LAL: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.03; Angle 0.02; Dihedral 0.01
+PA_PC_MY: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.00; Angle 0.00; Dihedral 0.00
+PA_PC_PA: Parmed: Potential 0.00; Amber: Potential 0.26; Bond 0.03; Angle 0.01; Dihedral 0.00
+PA_PC_OL: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.02; Angle 0.03; Dihedral 0.00
+PA_PC_ST: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.04; Angle 0.01; Dihedral 0.00
+PA_PC_AR: Parmed: Potential 0.00; Amber: Potential 0.10; Bond 0.01; Angle 0.01; Dihedral 0.01
+PA_PC_DHA: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.05; Angle 0.00; Dihedral 0.01
+PA_PE_LAL: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.03; Angle 0.02; Dihedral 0.00
+PA_PE_MY: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.02; Angle 0.00; Dihedral 0.00
+PA_PE_PA: Parmed: Potential 0.00; Amber: Potential 0.20; Bond 0.03; Angle 0.05; Dihedral 0.00
+PA_PE_OL: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.06; Angle 0.03; Dihedral 0.00
+PA_PE_ST: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.01; Angle 0.01; Dihedral 0.00
+PA_PE_AR: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.02; Angle 0.02; Dihedral 0.01
+PA_PE_DHA: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.04; Angle 0.02; Dihedral 0.00
+PA_PS_LAL: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.01; Angle 0.01; Dihedral 0.00
+PA_PS_MY: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.02; Angle 0.01; Dihedral 0.00
+PA_PS_PA: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.02; Angle 0.02; Dihedral 0.00
+PA_PS_OL: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.05; Angle 0.04; Dihedral 0.00
+PA_PS_ST: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.04; Angle 0.02; Dihedral 0.00
+PA_PS_AR: Parmed: Potential 0.00; Amber: Potential 0.10; Bond 0.06; Angle 0.03; Dihedral 0.01
+PA_PS_DHA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.00
+PA_PGR_LAL: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.08; Angle 0.01; Dihedral 0.00
+PA_PGR_MY: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.04; Angle 0.03; Dihedral 0.00
+PA_PGR_PA: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.04; Angle 0.02; Dihedral 0.00
+PA_PGR_OL: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.06; Angle 0.02; Dihedral 0.00
+PA_PGR_ST: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.04; Angle 0.02; Dihedral 0.00
+PA_PGR_AR: Parmed: Potential 0.00; Amber: Potential 0.19; Bond 0.05; Angle 0.00; Dihedral 0.00
+PA_PGR_DHA: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.04; Angle 0.04; Dihedral 0.00
+PA_PH-_LAL: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.05; Angle 0.02; Dihedral 0.00
+PA_PH-_MY: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.01; Angle 0.02; Dihedral 0.00
+PA_PH-_PA: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.00; Angle 0.00; Dihedral 0.00
+PA_PH-_OL: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.01; Angle 0.02; Dihedral 0.00
+PA_PH-_ST: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.00; Angle 0.02; Dihedral 0.00
+PA_PH-_AR: Parmed: Potential 0.00; Amber: Potential 0.11; Bond 0.05; Angle 0.00; Dihedral 0.01
+PA_PH-_DHA: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.03; Angle 0.00; Dihedral 0.00
+OL_PC_LAL: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.01; Angle 0.01; Dihedral 0.00
+OL_PC_MY: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.01; Angle 0.02; Dihedral 0.00
+OL_PC_PA: Parmed: Potential 0.00; Amber: Potential 0.12; Bond 0.00; Angle 0.04; Dihedral 0.00
+OL_PC_OL: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.00; Angle 0.02; Dihedral 0.00
+OL_PC_ST: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.02; Angle 0.01; Dihedral 0.01
+OL_PC_AR: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.02; Angle 0.02; Dihedral 0.01
+OL_PC_DHA: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.01; Angle 0.04; Dihedral 0.00
+OL_PE_LAL: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.00; Angle 0.04; Dihedral 0.00
+OL_PE_MY: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.02; Angle 0.03; Dihedral 0.00
+OL_PE_PA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.05; Angle 0.01; Dihedral 0.00
+OL_PE_OL: Parmed: Potential 0.00; Amber: Potential 0.10; Bond 0.05; Angle 0.01; Dihedral 0.00
+OL_PE_ST: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.01; Angle 0.04; Dihedral 0.00
+OL_PE_AR: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.04; Angle 0.00; Dihedral 0.00
+OL_PE_DHA: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.03; Angle 0.02; Dihedral 0.00
+OL_PS_LAL: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.06; Angle 0.03; Dihedral 0.00
+OL_PS_MY: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.03; Angle 0.03; Dihedral 0.00
+OL_PS_PA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.04; Angle 0.00; Dihedral 0.00
+OL_PS_OL: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.01; Angle 0.00; Dihedral 0.00
+OL_PS_ST: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.05; Angle 0.02; Dihedral 0.00
+OL_PS_AR: Parmed: Potential 0.00; Amber: Potential 0.14; Bond 0.01; Angle 0.02; Dihedral 0.00
+OL_PS_DHA: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.02; Angle 0.01; Dihedral 0.00
+OL_PGR_LAL: Parmed: Potential 0.00; Amber: Potential 0.11; Bond 0.08; Angle 0.02; Dihedral 0.00
+OL_PGR_MY: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.00; Angle 0.01; Dihedral 0.00
+OL_PGR_PA: Parmed: Potential 0.00; Amber: Potential 0.12; Bond 0.07; Angle 0.00; Dihedral 0.01
+OL_PGR_OL: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.07; Angle 0.00; Dihedral 0.00
+OL_PGR_ST: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.05; Angle 0.00; Dihedral 0.00
+OL_PGR_AR: Parmed: Potential 0.00; Amber: Potential 0.18; Bond 0.02; Angle 0.03; Dihedral 0.00
+OL_PGR_DHA: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.01; Angle 0.01; Dihedral 0.01
+OL_PH-_LAL: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.08; Angle 0.02; Dihedral 0.00
+OL_PH-_MY: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.00; Angle 0.00; Dihedral 0.00
+OL_PH-_PA: Parmed: Potential 0.00; Amber: Potential 0.15; Bond 0.01; Angle 0.02; Dihedral 0.00
+OL_PH-_OL: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.02; Angle 0.02; Dihedral 0.00
+OL_PH-_ST: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.03; Angle 0.00; Dihedral 0.00
+OL_PH-_AR: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.00; Angle 0.00; Dihedral 0.01
+OL_PH-_DHA: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.02; Angle 0.00; Dihedral 0.01
+ST_PC_LAL: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.00; Angle 0.04; Dihedral 0.00
+ST_PC_MY: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.00; Angle 0.00; Dihedral 0.00
+ST_PC_PA: Parmed: Potential 0.00; Amber: Potential 0.19; Bond 0.02; Angle 0.01; Dihedral 0.00
+ST_PC_OL: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.02; Angle 0.02; Dihedral 0.00
+ST_PC_ST: Parmed: Potential 0.00; Amber: Potential 0.09; Bond 0.05; Angle 0.05; Dihedral 0.00
+ST_PC_AR: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.00; Angle 0.02; Dihedral 0.01
+ST_PC_DHA: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.00; Angle 0.01; Dihedral 0.01
+ST_PE_LAL: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.03; Angle 0.02; Dihedral 0.00
+ST_PE_MY: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.03; Angle 0.01; Dihedral 0.00
+ST_PE_PA: Parmed: Potential 0.00; Amber: Potential 0.14; Bond 0.03; Angle 0.00; Dihedral 0.00
+ST_PE_OL: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.00; Angle 0.01; Dihedral 0.00
+ST_PE_ST: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.04; Angle 0.01; Dihedral 0.00
+ST_PE_AR: Parmed: Potential 0.00; Amber: Potential 0.13; Bond 0.02; Angle 0.01; Dihedral 0.00
+ST_PE_DHA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.02; Angle 0.00; Dihedral 0.00
+ST_PS_LAL: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.08; Angle 0.06; Dihedral 0.00
+ST_PS_MY: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.02; Angle 0.07; Dihedral 0.00
+ST_PS_PA: Parmed: Potential 0.00; Amber: Potential 0.16; Bond 0.00; Angle 0.02; Dihedral 0.00
+ST_PS_OL: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.00; Angle 0.00; Dihedral 0.00
+ST_PS_ST: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.03; Angle 0.02; Dihedral 0.00
+ST_PS_AR: Parmed: Potential 0.00; Amber: Potential 0.15; Bond 0.04; Angle 0.00; Dihedral 0.00
+ST_PS_DHA: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.01; Angle 0.03; Dihedral 0.00
+ST_PGR_LAL: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.04; Angle 0.01; Dihedral 0.00
+ST_PGR_MY: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.02; Angle 0.02; Dihedral 0.00
+ST_PGR_PA: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.03; Angle 0.00; Dihedral 0.00
+ST_PGR_OL: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.00; Angle 0.00; Dihedral 0.00
+ST_PGR_ST: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.01; Angle 0.05; Dihedral 0.00
+ST_PGR_AR: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.04; Angle 0.01; Dihedral 0.00
+ST_PGR_DHA: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.04; Angle 0.04; Dihedral 0.00
+ST_PH-_LAL: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.05; Angle 0.04; Dihedral 0.00
+ST_PH-_MY: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.01; Angle 0.02; Dihedral 0.00
+ST_PH-_PA: Parmed: Potential 0.00; Amber: Potential 0.20; Bond 0.00; Angle 0.00; Dihedral 0.00
+ST_PH-_OL: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.03; Angle 0.02; Dihedral 0.00
+ST_PH-_ST: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.01; Angle 0.03; Dihedral 0.00
+ST_PH-_AR: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.04; Angle 0.01; Dihedral 0.00
+ST_PH-_DHA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.01; Angle 0.01; Dihedral 0.00
+AR_PC_LAL: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.03; Angle 0.03; Dihedral 0.00
+AR_PC_MY: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.02; Angle 0.03; Dihedral 0.00
+AR_PC_PA: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.02; Angle 0.00; Dihedral 0.00
+AR_PC_OL: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.00; Angle 0.01; Dihedral 0.00
+AR_PC_ST: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.03; Angle 0.03; Dihedral 0.00
+AR_PC_AR: Parmed: Potential 0.00; Amber: Potential 0.24; Bond 0.02; Angle 0.01; Dihedral 0.01
+AR_PC_DHA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.02; Angle 0.02; Dihedral 0.00
+AR_PE_LAL: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.04; Angle 0.01; Dihedral 0.00
+AR_PE_MY: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.04; Angle 0.01; Dihedral 0.00
+AR_PE_PA: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.01; Angle 0.02; Dihedral 0.00
+AR_PE_OL: Parmed: Potential 0.00; Amber: Potential 0.10; Bond 0.07; Angle 0.03; Dihedral 0.00
+AR_PE_ST: Parmed: Potential 0.00; Amber: Potential 0.10; Bond 0.04; Angle 0.03; Dihedral 0.00
+AR_PE_AR: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.07; Angle 0.04; Dihedral 0.00
+AR_PE_DHA: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.01; Angle 0.04; Dihedral 0.00
+AR_PS_LAL: Parmed: Potential 0.00; Amber: Potential 5106.73; Bond 0.07; Angle 0.01; Dihedral 0.00
+AR_PS_MY: Parmed: Potential 0.00; Amber: Potential 5105.66; Bond 0.02; Angle 0.03; Dihedral 0.00
+AR_PS_PA: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.01; Angle 0.03; Dihedral 0.00
+AR_PS_OL: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.01; Angle 0.01; Dihedral 0.00
+AR_PS_ST: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.02; Angle 0.00; Dihedral 0.00
+AR_PS_AR: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.02; Angle 0.01; Dihedral 0.00
+AR_PS_DHA: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.04; Angle 0.00; Dihedral 0.01
+AR_PGR_LAL: Parmed: Potential 0.00; Amber: Potential 255.95; Bond 0.08; Angle 0.04; Dihedral 0.00
+AR_PGR_MY: Parmed: Potential 0.00; Amber: Potential 260.92; Bond 0.01; Angle 0.00; Dihedral 0.00
+AR_PGR_PA: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.00; Angle 0.01; Dihedral 0.00
+AR_PGR_OL: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.05; Angle 0.02; Dihedral 0.00
+AR_PGR_ST: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.01; Angle 0.01; Dihedral 0.00
+AR_PGR_AR: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.05; Angle 0.01; Dihedral 0.00
+AR_PGR_DHA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.02; Angle 0.01; Dihedral 0.00
+AR_PH-_LAL: Parmed: Potential 0.00; Amber: Potential 62.03; Bond 0.03; Angle 0.01; Dihedral 0.00
+AR_PH-_MY: Parmed: Potential 0.00; Amber: Potential 61.98; Bond 0.03; Angle 0.01; Dihedral 0.00
+AR_PH-_PA: Parmed: Potential 0.00; Amber: Potential 0.05; Bond 0.04; Angle 0.01; Dihedral 0.00
+AR_PH-_OL: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.02; Angle 0.00; Dihedral 0.00
+AR_PH-_ST: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.04; Angle 0.02; Dihedral 0.00
+AR_PH-_AR: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.04; Angle 0.01; Dihedral 0.01
+AR_PH-_DHA: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.01; Angle 0.01; Dihedral 0.01
+DHA_PC_LAL: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.01; Angle 0.01; Dihedral 0.00
+DHA_PC_MY: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.01; Angle 0.00; Dihedral 0.00
+DHA_PC_PA: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.01; Angle 0.01; Dihedral 0.00
+DHA_PC_OL: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.03; Angle 0.03; Dihedral 0.00
+DHA_PC_ST: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.00; Angle 0.02; Dihedral 0.00
+DHA_PC_AR: Parmed: Potential 0.00; Amber: Potential 0.13; Bond 0.00; Angle 0.01; Dihedral 0.00
+DHA_PC_DHA: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.03; Angle 0.02; Dihedral 0.00
+DHA_PE_LAL: Parmed: Potential 0.00; Amber: Potential 0.09; Bond 0.09; Angle 0.00; Dihedral 0.00
+DHA_PE_MY: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.09; Angle 0.02; Dihedral 0.01
+DHA_PE_PA: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.08; Angle 0.01; Dihedral 0.00
+DHA_PE_OL: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.00; Angle 0.00; Dihedral 0.00
+DHA_PE_ST: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.06; Angle 0.02; Dihedral 0.00
+DHA_PE_AR: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.06; Angle 0.02; Dihedral 0.01
+DHA_PE_DHA: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.02; Angle 0.01; Dihedral 0.00
+DHA_PS_LAL: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.03; Angle 0.02; Dihedral 0.00
+DHA_PS_MY: Parmed: Potential 0.00; Amber: Potential 0.10; Bond 0.04; Angle 0.04; Dihedral 0.00
+DHA_PS_PA: Parmed: Potential 0.00; Amber: Potential 0.16; Bond 0.00; Angle 0.01; Dihedral 0.00
+DHA_PS_OL: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.02; Angle 0.03; Dihedral 0.00
+DHA_PS_ST: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.02; Angle 0.01; Dihedral 0.01
+DHA_PS_AR: Parmed: Potential 0.00; Amber: Potential 0.08; Bond 0.07; Angle 0.01; Dihedral 0.01
+DHA_PS_DHA: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.07; Angle 0.00; Dihedral 0.01
+DHA_PGR_LAL: Parmed: Potential 0.00; Amber: Potential 0.06; Bond 0.03; Angle 0.01; Dihedral 0.00
+DHA_PGR_MY: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.03; Angle 0.01; Dihedral 0.00
+DHA_PGR_PA: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.01; Angle 0.02; Dihedral 0.00
+DHA_PGR_OL: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.03; Angle 0.01; Dihedral 0.01
+DHA_PGR_ST: Parmed: Potential 0.00; Amber: Potential 0.01; Bond 0.00; Angle 0.01; Dihedral 0.00
+DHA_PGR_AR: Parmed: Potential 0.00; Amber: Potential 0.07; Bond 0.03; Angle 0.04; Dihedral 0.01
+DHA_PGR_DHA: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.02; Angle 0.01; Dihedral 0.01
+DHA_PH-_LAL: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.09; Angle 0.01; Dihedral 0.01
+DHA_PH-_MY: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.03; Angle 0.02; Dihedral 0.00
+DHA_PH-_PA: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.00; Angle 0.01; Dihedral 0.00
+DHA_PH-_OL: Parmed: Potential 0.00; Amber: Potential 0.02; Bond 0.01; Angle 0.03; Dihedral 0.00
+DHA_PH-_ST: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.02; Angle 0.01; Dihedral 0.00
+DHA_PH-_AR: Parmed: Potential 0.00; Amber: Potential 0.04; Bond 0.03; Angle 0.01; Dihedral 0.01
+DHA_PH-_DHA: Parmed: Potential 0.00; Amber: Potential 0.00; Bond 0.00; Angle 0.02; Dihedral 0.01
+CHL: Parmed: Potential 0.00; Amber: Potential 0.03; Bond 0.00; Angle 0.01; Dihedral 0.00
+Max: Parmed: Potential 0.00; Amber: Potential 5106.73; Bond 0.09; Angle 0.07; Dihedral 0.01

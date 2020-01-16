@@ -3,7 +3,7 @@
           Amber 18 SANDER                              2018
           -------------------------------------------------------
 
-| Run on 11/25/2019 at 17:35:59
+| Run on 01/16/2020 at 16:54:35
 
 |   Executable path: /Users/grte2001/src/amber18/bin/sander
 | Working directory: /Users/grte2001/GitHub/gmx_lipid17.ff/generation_validation/validation
@@ -86,7 +86,7 @@ Relax restrained - 1 ns
 | Duplicated    0 dihedrals
 
      BOX TYPE: RECTILINEAR
-Note: ig = -1. Setting random seed to   256122 based on wallclock time in microseconds.
+Note: ig = -1. Setting random seed to   971349 based on wallclock time in microseconds.
 
 --------------------------------------------------------------------------------
    2.  CONTROL  DATA  FOR  THE  RUN
@@ -159,32 +159,28 @@ CHL
    5.  TIMINGS
 --------------------------------------------------------------------------------
 
-|    Read coords time           0.00 ( 3.02% of Total)
-|    Fast Water setup           0.00 ( 0.07% of Total)
+|    Read coords time           0.00 ( 9.81% of Total)
+|    Fast Water setup           0.00 ( 0.12% of Total)
 |                Build the list             0.00 (91.22% of List )
 |                Other                      0.00 ( 8.78% of List )
-|             List time                  0.00 (75.79% of Nonbo)
-|                Direct Ewald time          0.00 (88.08% of Ewald)
-|                Virial junk                0.00 ( 0.94% of Ewald)
-|                Other                      0.00 (10.98% of Ewald)
-|             Ewald time                 0.00 (23.99% of Nonbo)
-|             Other                      0.00 ( 0.23% of Nonbo)
-|          Nonbond force              0.00 (84.01% of Force)
-|          Bond/Angle/Dihedral        0.00 (13.97% of Force)
-|          Other                      0.00 ( 2.02% of Force)
-|       Force time                 0.00 (29.49% of Runmd)
-|       Other                      0.00 (70.51% of Runmd)
-|    Runmd Time                 0.00 (18.55% of Total)
-|    Other                      0.01 (78.36% of Total)
-| Total time                 0.01 (99.55% of ALL  )
+|             List time                  0.00 (74.40% of Nonbo)
+|             Ewald time                 0.00 (25.60% of Nonbo)
+|          Nonbond force              0.00 (83.57% of Force)
+|          Bond/Angle/Dihedral        0.00 (14.58% of Force)
+|          Other                      0.00 ( 1.85% of Force)
+|       Force time                 0.00 (41.93% of Runmd)
+|       Other                      0.00 (58.07% of Runmd)
+|    Runmd Time                 0.00 (21.00% of Total)
+|    Other                      0.00 (69.07% of Total)
+| Total time                 0.00 (99.40% of ALL  )
 
 | Number of list builds   :          1
 
 | Highest rstack allocated:        320
 | Highest istack allocated:         64
-|           Job began  at 17:35:59.249  on 11/25/2019
-|           Setup done at 17:35:59.257  on 11/25/2019
-|           Run   done at 17:35:59.259  on 11/25/2019
+|           Job began  at 16:54:35.968  on 01/16/2020
+|           Setup done at 16:54:35.972  on 01/16/2020
+|           Run   done at 16:54:35.973  on 01/16/2020
 |     wallclock() was called      38 times
 
 |3D-RISM memory allocation summary

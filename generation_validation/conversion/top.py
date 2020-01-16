@@ -125,18 +125,25 @@ class Topology():
                 new_bond._j = self.content_dict['atoms'].atom_idx2attr(line._j, '_atom')
                 new_bond._func = ''
 
-                for residue in residue_list:
+                for residue_id, residue in enumerate(residue_list):
                     start_id = residue.content_dict['atoms'][0]._nr
                     end_id = residue.content_dict['atoms'][-1]._nr
-                    if (line._i > start_id and line._i < end_id) or (line._j > start_id and line._j < end_id):
+                    if any([(getattr(line, idx) >= start_id and getattr(line, idx) <= end_id) for idx in ['_i', '_j']]):
                         residue_bond = copy.copy(new_bond)
-                        for idx in ['_i', '_j']:
-                            if getattr(line, idx) < start_id:
-                                setattr(residue_bond, idx, '-' + getattr(new_bond, idx))
-                            elif getattr(line, idx) > end_id:
-                                setattr(residue_bond, idx, '+' + getattr(new_bond, idx))
-                        residue.content_dict['bonds'].append(residue_bond)
-                        break
+                        # check intra molecule
+                        if any([(getattr(line, idx) < start_id or getattr(line, idx) > end_id) for idx in ['_i', '_j']]):
+                            if residue_id == 1:
+                                # only add if it is the middle residue
+                                for idx in ['_i', '_j']:
+                                    if getattr(line, idx) < start_id:
+                                        setattr(residue_bond, idx, '-' + getattr(new_bond, idx))
+                                    elif getattr(line, idx) > end_id:
+                                        setattr(residue_bond, idx, '+' + getattr(new_bond, idx))
+                                residue.content_dict['bonds'].append(residue_bond)
+                                break
+                        else:
+                            residue.content_dict['bonds'].append(residue_bond)
+                            break
 
             elif isinstance(line, Dihedral):
                 if line._func == '4':
@@ -150,33 +157,30 @@ class Topology():
                     new_dihedral._phase = ''
                     new_dihedral._kd = ''
                     new_dihedral._pn = ''
-                    for residue in residue_list:
+                    for residue_id, residue in enumerate(residue_list):
                         start_id = residue.content_dict['atoms'][0]._nr
                         end_id = residue.content_dict['atoms'][-1]._nr
-
-                        if (line._i > start_id and line._i < end_id) or \
-                           (line._j > start_id and line._j < end_id) or \
-                           (line._k > start_id and line._k < end_id) or \
-                           (line._l > start_id and line._l < end_id):
+                        # Try to only do the intra residue bond for the middle one
+                        if any([(getattr(line, idx) >= start_id and getattr(line, idx) <= end_id) for idx in ['_i', '_j', '_k', '_l']]):
                             residue_dihedral = copy.copy(new_dihedral)
-                            for idx in ['_i', '_j', '_k', '_l']:
-                                if getattr(line, idx) < start_id:
-                                    setattr(residue_dihedral, idx, '-' + getattr(new_dihedral, idx))
-                                elif getattr(line, idx) > end_id:
-                                    setattr(residue_dihedral, idx, '+' + getattr(new_dihedral, idx))
-                            residue.content_dict['impropers'].append(residue_dihedral)
-                            break
+                            # check intra dihedral
+                            if any([(getattr(line, idx) < start_id or getattr(line, idx) > end_id) for idx in
+                                    ['_i', '_j', '_k', '_l']]):
+                                if residue_id == 1:
+                                    for idx in ['_i', '_j', '_k', '_l']:
+                                        if getattr(line, idx) < start_id:
+                                            setattr(residue_dihedral, idx, '-' + getattr(new_dihedral, idx))
+                                        elif getattr(line, idx) > end_id:
+                                            setattr(residue_dihedral, idx, '+' + getattr(new_dihedral, idx))
+                                    residue.content_dict['impropers'].append(residue_dihedral)
+                                    break
+                            else:
+                                residue.content_dict['impropers'].append(residue_dihedral)
+                                break
 
         for index, residue in enumerate(residue_list):
             residue.content_dict['atoms'].atom_reindex()
             residue.content_dict['bonds'].uniqle()
             residue.content_dict['impropers'].uniqle()
-            if len(residue_list) > 1:
-                if index == 0:
-                    residue.original_name = residue.name
-                    residue.name = residue.name + start_residue_suffix
-                elif index == len(residue_list)-1:
-                    residue.original_name = residue.name
-                    residue.name = residue.name + end_residue_suffix
         return residue_list
 
