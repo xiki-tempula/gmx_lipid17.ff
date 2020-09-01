@@ -204,32 +204,26 @@ def resname2lipid17(mol):
         return lipid(mol, resname)
 
 if __name__ == '__main__':
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument("-f", nargs=1, metavar="charmm_lipid.gro", help="Input file with charmm lipid.")
-    # parser.add_argument("-o", nargs=1, metavar="amber_lipid.gro", \
-    #                     help="Output file for gromacs input with lipid name changed to amber lipid17.")
-    # parser.add_argument("-lipids", nargs="+", metavar="POPC", default="charmm_membrane_builder", \
-    #                     help="Lipid names to check, seperated by space.")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-f", nargs=1, metavar="charmm_lipid.gro", help="Input file with charmm lipid.")
+    parser.add_argument("-o", nargs=1, metavar="amber_lipid.gro", \
+                        help="Output file for gromacs input with lipid name changed to amber lipid17.")
+    parser.add_argument("-lipids", nargs="+", metavar="POPC", default="charmm_membrane_builder", \
+                        help="Lipid names to check, seperated by space.")
 
-    # args = parser.parse_args(sys.argv[1:])
+    args = parser.parse_args(sys.argv[1:])
 
     default_set = ['CHL1', 'DLPA', 'DLPC', 'DLPE', 'DLPG', 'DLPS', 'DMPA', 'DMPC', 'DMPE', 'DMPG', 'DMPS', 'DOPA',
                    'DOPC', 'DOPE', 'DOPG', 'DOPS', 'DPPA', 'DPPC', 'DPPE', 'DPPG', 'DPPS', 'DSPA', 'DSPC', 'DSPE',
                    'DSPG', 'DSPS', 'POPA', 'POPC', 'POPE', 'POPG', 'POPS', 'SOPA', 'SOPC', 'SOPE', 'SOPG', 'SOPS', ]
-    # input_file = args.f[0]
-    # output_file = args.o[0]
-    # lipid_set = args.lipids
-
-    input_file = '/Volumes/GoogleDrive/My Drive/Simulations/KDEL/Free/Golgi_ER/KDEL_bound/ER/charmm_A/FINAL/lipid.gro'
-    output_file = '/Volumes/GoogleDrive/My Drive/Simulations/KDEL/Free/Golgi_ER/KDEL_bound/ER/amber_A.gro'
-    lipid_set = ['CHL1', 'DMPC', 'DMPE', 'DMPI', 'DMPS']
+    input_file = args.f[0]
+    output_file = args.o[0]
+    lipid_set = args.lipids
 
     if lipid_set == "charmm_membrane_builder":
         lipid_set = default_set
 
     u = mda.Universe(input_file)
-    u.select_atoms('resname CHOL').residues.resnames = 'CHL1'
-    u.select_atoms('resname DLPI').residues.resnames = 'DMPI'
     new_u = []
     previous_lipid = None
     warning_lipids = []
