@@ -78,7 +78,6 @@ def lipid(u, resname):
                 name = name[:-1] + 'Y'
             elif name[-1] == 'T':
                 name = name[:-1] + 'Z'
-        print(resname, amber_acyl_A, charmm_acyl_A, ori_name, name)
         new_atom = Merge(u.select_atoms('name {}'.format(name))).atoms
         new_atom.names = ori_name
         new_ag.append(new_atom)
